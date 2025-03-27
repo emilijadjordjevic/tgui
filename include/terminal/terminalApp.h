@@ -4,6 +4,7 @@
 #include <iostream>
 #include "terminalDrawEngine.h"
 #include "terminalEnvironment.h"
+#include "DisplayCell.h"
 #include "utils/Position.h"
 
 class TerminalApp {
@@ -22,6 +23,7 @@ public:
     void clearScreen();
     void drawText(int row, int col, char c, int textColor = 37, int bgColor = 40);
     void drawText(Position p, char c, int textColor, int bgColor);
+    void drawText(int row, int col, DisplayCell&);
     void resetColors();
 };
 

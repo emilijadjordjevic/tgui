@@ -26,7 +26,6 @@ public:
     bool isPrefSizeSet() const;
     void setPosition(Position);
     Position getPosition() const;
-    
 };
 
 #endif

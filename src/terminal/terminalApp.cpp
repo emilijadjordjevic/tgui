@@ -31,6 +31,19 @@ void TerminalApp::drawText(int row, int col, char c, int textCol, int bgCol) {
     termDraw->drawChar(row, col, c);
 }
 
+void TerminalApp::drawText(int row, int col, DisplayCell& cell) {
+    // termDraw->setTextColor(cell.getForegroundColor());
+    // termDraw->setBackgroundColor(cell.getBackgroundColor());
+    // termDraw->drawChar(row, col, cell.getChar());
+    drawText(row, col, cell.getChar(), cell.getForegroundColor(), cell.getBackgroundColor());
+}
+
+void TerminalApp::drawText(Position p, char c, int textColor, int bgColor) {
+    // termDraw->setTextColor(textColor);
+    // termDraw->setBackgroundColor(bgColor);
+    drawText(p.getY(), p.getX(), c, textColor, bgColor);
+}
+
 void TerminalApp::resetColors() {
     termEnv->resetColors();
 }
@@ -38,6 +51,10 @@ void TerminalApp::resetColors() {
 TerminalApp::~TerminalApp() {
     delete termDraw;
     delete termEnv;
+}
+
+void TerminalApp::drawText(Position p, DisplayCell& cell) {
+    drawText(p, cell.getChar(), cell.getForegroundColor(), cell.getBackgroundColor());
 }
 
 

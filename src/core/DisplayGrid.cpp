@@ -44,6 +44,11 @@ DisplayCell* DisplayGrid::getCell(const Position& pos) {
     return this->getCell(pos.getY(), pos.getX());
 }
 
+vector<vector<DisplayCell*>> DisplayGrid::getGrid() const {
+    return this->grid;
+}
+
+
 
 
 

@@ -27,6 +27,7 @@ public:
     void setCell(const Position&, char, int, int);
     DisplayCell* getCell(int, int);
     DisplayCell* getCell(const Position&);
+    vector<vector<DisplayCell*>> getGrid() const;
 };
 
 #endif
