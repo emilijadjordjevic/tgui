@@ -1,39 +1,47 @@
-#include "utils/Size.h"
+#include "utils/size.h"
 
-Size::Size(int width, int height) : width(width), height(height) {}
+Size::Size() : _width(0), _height(0) {}
+
+Size::Size(int width, int height) : _width(width), _height(height) {}
+
+Size::Size(const Size& size) : _width(size._width), _height(size._height) {}
 
 Size::~Size() {}
 
-Size::Size() : width(0), height(0) {}
-
-int Size::getHeight() const {
-    return height;
-}
-
-int Size::getWidth() const {
-    return width;
+void Size::setWidth(int width) {
+    _width = width;
 }
 
 void Size::setHeight(int height) {
-    this->height = height;
+    _height = height;
 }
 
-void Size::setWidth(int width) {
-    this->width = width;
+int Size::getWidth() const {
+    return _width;
 }
 
-bool Size::operator==(const Size &other) {
-    return other.getHeight() == height && other.getWidth() == width;
+int Size::getHeight() const {
+    return _height;
 }
 
-bool Size::operator>(const Size& other) {
-    return this->getHeight() >= other.getHeight() && this->getWidth() >= other.getWidth();
+int Size::area() const {
+    return _width * _height;
 }
 
-bool Size::operator>(int num) {
-    return this->getWidth > num;
+ostream& operator<<(ostream& os, const Size& size) {
+    os << "width: " << size._width << " height: " << size._height << endl;
+
+    return os;
 }
 
-Size Size::operator+(const Size& other) {
-    return {this->getWidth() + other.getWidth(), this->getHeight() + other.getHeight()};
+bool Size::operator==(const int other) const {
+    return this->_width == other || this->_height == other;
+}
+
+bool Size::operator!=(const int other) const {
+    return this->_width != other || this->_height != other;
+}
+
+bool Size::operator==(const Size& other) {
+    return _width == other.getWidth() && _height == other.getHeight();
 }

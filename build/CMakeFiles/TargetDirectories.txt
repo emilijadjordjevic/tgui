@@ -1,3 +1,3 @@
-/home/emilija/Desktop/banking-system/build/CMakeFiles/rebuild_cache.dir
-/home/emilija/Desktop/banking-system/build/CMakeFiles/edit_cache.dir
-/home/emilija/Desktop/banking-system/build/CMakeFiles/MyProject.dir
+/home/emilija/Desktop/tgui/build/CMakeFiles/rebuild_cache.dir
+/home/emilija/Desktop/tgui/build/CMakeFiles/edit_cache.dir
+/home/emilija/Desktop/tgui/build/CMakeFiles/MyProject.dir

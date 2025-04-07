@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/emilija/Desktop/banking-system
+CMAKE_SOURCE_DIR = /home/emilija/Desktop/tgui
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/emilija/Desktop/banking-system/build
+CMAKE_BINARY_DIR = /home/emilija/Desktop/tgui/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/emilija/Desktop/banking-system/build/CMakeFiles /home/emilija/Desktop/banking-system/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/emilija/Desktop/tgui/build/CMakeFiles /home/emilija/Desktop/tgui/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/emilija/Desktop/banking-system/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/emilija/Desktop/tgui/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,101 +129,149 @@ MyProject/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/build
 .PHONY : MyProject/fast
 
-src/components/textLabel.o: src/components/textLabel.cpp.o
-.PHONY : src/components/textLabel.o
+src/core/bitmap.o: src/core/bitmap.cpp.o
+.PHONY : src/core/bitmap.o
 
 # target to build an object file
-src/components/textLabel.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/components/textLabel.cpp.o
-.PHONY : src/components/textLabel.cpp.o
+src/core/bitmap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/core/bitmap.cpp.o
+.PHONY : src/core/bitmap.cpp.o
 
-src/components/textLabel.i: src/components/textLabel.cpp.i
-.PHONY : src/components/textLabel.i
+src/core/bitmap.i: src/core/bitmap.cpp.i
+.PHONY : src/core/bitmap.i
 
 # target to preprocess a source file
-src/components/textLabel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/components/textLabel.cpp.i
-.PHONY : src/components/textLabel.cpp.i
+src/core/bitmap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/core/bitmap.cpp.i
+.PHONY : src/core/bitmap.cpp.i
 
-src/components/textLabel.s: src/components/textLabel.cpp.s
-.PHONY : src/components/textLabel.s
+src/core/bitmap.s: src/core/bitmap.cpp.s
+.PHONY : src/core/bitmap.s
 
 # target to generate assembly for a file
-src/components/textLabel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/components/textLabel.cpp.s
-.PHONY : src/components/textLabel.cpp.s
+src/core/bitmap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/core/bitmap.cpp.s
+.PHONY : src/core/bitmap.cpp.s
 
-src/components/uiComponent.o: src/components/uiComponent.cpp.o
-.PHONY : src/components/uiComponent.o
+src/core/pixel.o: src/core/pixel.cpp.o
+.PHONY : src/core/pixel.o
 
 # target to build an object file
-src/components/uiComponent.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/components/uiComponent.cpp.o
-.PHONY : src/components/uiComponent.cpp.o
+src/core/pixel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/core/pixel.cpp.o
+.PHONY : src/core/pixel.cpp.o
 
-src/components/uiComponent.i: src/components/uiComponent.cpp.i
-.PHONY : src/components/uiComponent.i
+src/core/pixel.i: src/core/pixel.cpp.i
+.PHONY : src/core/pixel.i
 
 # target to preprocess a source file
-src/components/uiComponent.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/components/uiComponent.cpp.i
-.PHONY : src/components/uiComponent.cpp.i
+src/core/pixel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/core/pixel.cpp.i
+.PHONY : src/core/pixel.cpp.i
 
-src/components/uiComponent.s: src/components/uiComponent.cpp.s
-.PHONY : src/components/uiComponent.s
+src/core/pixel.s: src/core/pixel.cpp.s
+.PHONY : src/core/pixel.s
 
 # target to generate assembly for a file
-src/components/uiComponent.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/components/uiComponent.cpp.s
-.PHONY : src/components/uiComponent.cpp.s
+src/core/pixel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/core/pixel.cpp.s
+.PHONY : src/core/pixel.cpp.s
 
-src/core/DisplayCell.o: src/core/DisplayCell.cpp.o
-.PHONY : src/core/DisplayCell.o
+src/elements/container.o: src/elements/container.cpp.o
+.PHONY : src/elements/container.o
 
 # target to build an object file
-src/core/DisplayCell.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/core/DisplayCell.cpp.o
-.PHONY : src/core/DisplayCell.cpp.o
+src/elements/container.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/elements/container.cpp.o
+.PHONY : src/elements/container.cpp.o
 
-src/core/DisplayCell.i: src/core/DisplayCell.cpp.i
-.PHONY : src/core/DisplayCell.i
+src/elements/container.i: src/elements/container.cpp.i
+.PHONY : src/elements/container.i
 
 # target to preprocess a source file
-src/core/DisplayCell.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/core/DisplayCell.cpp.i
-.PHONY : src/core/DisplayCell.cpp.i
+src/elements/container.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/elements/container.cpp.i
+.PHONY : src/elements/container.cpp.i
 
-src/core/DisplayCell.s: src/core/DisplayCell.cpp.s
-.PHONY : src/core/DisplayCell.s
+src/elements/container.s: src/elements/container.cpp.s
+.PHONY : src/elements/container.s
 
 # target to generate assembly for a file
-src/core/DisplayCell.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/core/DisplayCell.cpp.s
-.PHONY : src/core/DisplayCell.cpp.s
+src/elements/container.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/elements/container.cpp.s
+.PHONY : src/elements/container.cpp.s
 
-src/core/DisplayGrid.o: src/core/DisplayGrid.cpp.o
-.PHONY : src/core/DisplayGrid.o
+src/elements/hbox.o: src/elements/hbox.cpp.o
+.PHONY : src/elements/hbox.o
 
 # target to build an object file
-src/core/DisplayGrid.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/core/DisplayGrid.cpp.o
-.PHONY : src/core/DisplayGrid.cpp.o
+src/elements/hbox.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/elements/hbox.cpp.o
+.PHONY : src/elements/hbox.cpp.o
 
-src/core/DisplayGrid.i: src/core/DisplayGrid.cpp.i
-.PHONY : src/core/DisplayGrid.i
+src/elements/hbox.i: src/elements/hbox.cpp.i
+.PHONY : src/elements/hbox.i
 
 # target to preprocess a source file
-src/core/DisplayGrid.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/core/DisplayGrid.cpp.i
-.PHONY : src/core/DisplayGrid.cpp.i
+src/elements/hbox.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/elements/hbox.cpp.i
+.PHONY : src/elements/hbox.cpp.i
 
-src/core/DisplayGrid.s: src/core/DisplayGrid.cpp.s
-.PHONY : src/core/DisplayGrid.s
+src/elements/hbox.s: src/elements/hbox.cpp.s
+.PHONY : src/elements/hbox.s
 
 # target to generate assembly for a file
-src/core/DisplayGrid.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/core/DisplayGrid.cpp.s
-.PHONY : src/core/DisplayGrid.cpp.s
+src/elements/hbox.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/elements/hbox.cpp.s
+.PHONY : src/elements/hbox.cpp.s
+
+src/elements/node.o: src/elements/node.cpp.o
+.PHONY : src/elements/node.o
+
+# target to build an object file
+src/elements/node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/elements/node.cpp.o
+.PHONY : src/elements/node.cpp.o
+
+src/elements/node.i: src/elements/node.cpp.i
+.PHONY : src/elements/node.i
+
+# target to preprocess a source file
+src/elements/node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/elements/node.cpp.i
+.PHONY : src/elements/node.cpp.i
+
+src/elements/node.s: src/elements/node.cpp.s
+.PHONY : src/elements/node.s
+
+# target to generate assembly for a file
+src/elements/node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/elements/node.cpp.s
+.PHONY : src/elements/node.cpp.s
+
+src/elements/textLabel.o: src/elements/textLabel.cpp.o
+.PHONY : src/elements/textLabel.o
+
+# target to build an object file
+src/elements/textLabel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/elements/textLabel.cpp.o
+.PHONY : src/elements/textLabel.cpp.o
+
+src/elements/textLabel.i: src/elements/textLabel.cpp.i
+.PHONY : src/elements/textLabel.i
+
+# target to preprocess a source file
+src/elements/textLabel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/elements/textLabel.cpp.i
+.PHONY : src/elements/textLabel.cpp.i
+
+src/elements/textLabel.s: src/elements/textLabel.cpp.s
+.PHONY : src/elements/textLabel.s
+
+# target to generate assembly for a file
+src/elements/textLabel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/elements/textLabel.cpp.s
+.PHONY : src/elements/textLabel.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -249,101 +297,101 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/terminal/terminalApp.o: src/terminal/terminalApp.cpp.o
-.PHONY : src/terminal/terminalApp.o
+src/utils/box.o: src/utils/box.cpp.o
+.PHONY : src/utils/box.o
 
 # target to build an object file
-src/terminal/terminalApp.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/terminal/terminalApp.cpp.o
-.PHONY : src/terminal/terminalApp.cpp.o
+src/utils/box.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/utils/box.cpp.o
+.PHONY : src/utils/box.cpp.o
 
-src/terminal/terminalApp.i: src/terminal/terminalApp.cpp.i
-.PHONY : src/terminal/terminalApp.i
+src/utils/box.i: src/utils/box.cpp.i
+.PHONY : src/utils/box.i
 
 # target to preprocess a source file
-src/terminal/terminalApp.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/terminal/terminalApp.cpp.i
-.PHONY : src/terminal/terminalApp.cpp.i
+src/utils/box.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/utils/box.cpp.i
+.PHONY : src/utils/box.cpp.i
 
-src/terminal/terminalApp.s: src/terminal/terminalApp.cpp.s
-.PHONY : src/terminal/terminalApp.s
+src/utils/box.s: src/utils/box.cpp.s
+.PHONY : src/utils/box.s
 
 # target to generate assembly for a file
-src/terminal/terminalApp.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/terminal/terminalApp.cpp.s
-.PHONY : src/terminal/terminalApp.cpp.s
+src/utils/box.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/utils/box.cpp.s
+.PHONY : src/utils/box.cpp.s
 
-src/terminal/terminalDrawEngine.o: src/terminal/terminalDrawEngine.cpp.o
-.PHONY : src/terminal/terminalDrawEngine.o
+src/utils/box_layout_helper.o: src/utils/box_layout_helper.cpp.o
+.PHONY : src/utils/box_layout_helper.o
 
 # target to build an object file
-src/terminal/terminalDrawEngine.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/terminal/terminalDrawEngine.cpp.o
-.PHONY : src/terminal/terminalDrawEngine.cpp.o
+src/utils/box_layout_helper.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/utils/box_layout_helper.cpp.o
+.PHONY : src/utils/box_layout_helper.cpp.o
 
-src/terminal/terminalDrawEngine.i: src/terminal/terminalDrawEngine.cpp.i
-.PHONY : src/terminal/terminalDrawEngine.i
+src/utils/box_layout_helper.i: src/utils/box_layout_helper.cpp.i
+.PHONY : src/utils/box_layout_helper.i
 
 # target to preprocess a source file
-src/terminal/terminalDrawEngine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/terminal/terminalDrawEngine.cpp.i
-.PHONY : src/terminal/terminalDrawEngine.cpp.i
+src/utils/box_layout_helper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/utils/box_layout_helper.cpp.i
+.PHONY : src/utils/box_layout_helper.cpp.i
 
-src/terminal/terminalDrawEngine.s: src/terminal/terminalDrawEngine.cpp.s
-.PHONY : src/terminal/terminalDrawEngine.s
+src/utils/box_layout_helper.s: src/utils/box_layout_helper.cpp.s
+.PHONY : src/utils/box_layout_helper.s
 
 # target to generate assembly for a file
-src/terminal/terminalDrawEngine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/terminal/terminalDrawEngine.cpp.s
-.PHONY : src/terminal/terminalDrawEngine.cpp.s
+src/utils/box_layout_helper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/utils/box_layout_helper.cpp.s
+.PHONY : src/utils/box_layout_helper.cpp.s
 
-src/terminal/terminalEnvironment.o: src/terminal/terminalEnvironment.cpp.o
-.PHONY : src/terminal/terminalEnvironment.o
+src/utils/constraints.o: src/utils/constraints.cpp.o
+.PHONY : src/utils/constraints.o
 
 # target to build an object file
-src/terminal/terminalEnvironment.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/terminal/terminalEnvironment.cpp.o
-.PHONY : src/terminal/terminalEnvironment.cpp.o
+src/utils/constraints.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/utils/constraints.cpp.o
+.PHONY : src/utils/constraints.cpp.o
 
-src/terminal/terminalEnvironment.i: src/terminal/terminalEnvironment.cpp.i
-.PHONY : src/terminal/terminalEnvironment.i
+src/utils/constraints.i: src/utils/constraints.cpp.i
+.PHONY : src/utils/constraints.i
 
 # target to preprocess a source file
-src/terminal/terminalEnvironment.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/terminal/terminalEnvironment.cpp.i
-.PHONY : src/terminal/terminalEnvironment.cpp.i
+src/utils/constraints.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/utils/constraints.cpp.i
+.PHONY : src/utils/constraints.cpp.i
 
-src/terminal/terminalEnvironment.s: src/terminal/terminalEnvironment.cpp.s
-.PHONY : src/terminal/terminalEnvironment.s
+src/utils/constraints.s: src/utils/constraints.cpp.s
+.PHONY : src/utils/constraints.s
 
 # target to generate assembly for a file
-src/terminal/terminalEnvironment.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/terminal/terminalEnvironment.cpp.s
-.PHONY : src/terminal/terminalEnvironment.cpp.s
+src/utils/constraints.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/utils/constraints.cpp.s
+.PHONY : src/utils/constraints.cpp.s
 
-src/utils/position.o: src/utils/position.cpp.o
-.PHONY : src/utils/position.o
+src/utils/point.o: src/utils/point.cpp.o
+.PHONY : src/utils/point.o
 
 # target to build an object file
-src/utils/position.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/utils/position.cpp.o
-.PHONY : src/utils/position.cpp.o
+src/utils/point.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/utils/point.cpp.o
+.PHONY : src/utils/point.cpp.o
 
-src/utils/position.i: src/utils/position.cpp.i
-.PHONY : src/utils/position.i
+src/utils/point.i: src/utils/point.cpp.i
+.PHONY : src/utils/point.i
 
 # target to preprocess a source file
-src/utils/position.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/utils/position.cpp.i
-.PHONY : src/utils/position.cpp.i
+src/utils/point.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/utils/point.cpp.i
+.PHONY : src/utils/point.cpp.i
 
-src/utils/position.s: src/utils/position.cpp.s
-.PHONY : src/utils/position.s
+src/utils/point.s: src/utils/point.cpp.s
+.PHONY : src/utils/point.s
 
 # target to generate assembly for a file
-src/utils/position.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/utils/position.cpp.s
-.PHONY : src/utils/position.cpp.s
+src/utils/point.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/utils/point.cpp.s
+.PHONY : src/utils/point.cpp.s
 
 src/utils/size.o: src/utils/size.cpp.o
 .PHONY : src/utils/size.o
@@ -369,30 +417,6 @@ src/utils/size.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/utils/size.cpp.s
 .PHONY : src/utils/size.cpp.s
 
-src/utils/textUtils.o: src/utils/textUtils.cpp.o
-.PHONY : src/utils/textUtils.o
-
-# target to build an object file
-src/utils/textUtils.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/utils/textUtils.cpp.o
-.PHONY : src/utils/textUtils.cpp.o
-
-src/utils/textUtils.i: src/utils/textUtils.cpp.i
-.PHONY : src/utils/textUtils.i
-
-# target to preprocess a source file
-src/utils/textUtils.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/utils/textUtils.cpp.i
-.PHONY : src/utils/textUtils.cpp.i
-
-src/utils/textUtils.s: src/utils/textUtils.cpp.s
-.PHONY : src/utils/textUtils.s
-
-# target to generate assembly for a file
-src/utils/textUtils.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/utils/textUtils.cpp.s
-.PHONY : src/utils/textUtils.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -402,39 +426,42 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MyProject"
-	@echo "... src/components/textLabel.o"
-	@echo "... src/components/textLabel.i"
-	@echo "... src/components/textLabel.s"
-	@echo "... src/components/uiComponent.o"
-	@echo "... src/components/uiComponent.i"
-	@echo "... src/components/uiComponent.s"
-	@echo "... src/core/DisplayCell.o"
-	@echo "... src/core/DisplayCell.i"
-	@echo "... src/core/DisplayCell.s"
-	@echo "... src/core/DisplayGrid.o"
-	@echo "... src/core/DisplayGrid.i"
-	@echo "... src/core/DisplayGrid.s"
+	@echo "... src/core/bitmap.o"
+	@echo "... src/core/bitmap.i"
+	@echo "... src/core/bitmap.s"
+	@echo "... src/core/pixel.o"
+	@echo "... src/core/pixel.i"
+	@echo "... src/core/pixel.s"
+	@echo "... src/elements/container.o"
+	@echo "... src/elements/container.i"
+	@echo "... src/elements/container.s"
+	@echo "... src/elements/hbox.o"
+	@echo "... src/elements/hbox.i"
+	@echo "... src/elements/hbox.s"
+	@echo "... src/elements/node.o"
+	@echo "... src/elements/node.i"
+	@echo "... src/elements/node.s"
+	@echo "... src/elements/textLabel.o"
+	@echo "... src/elements/textLabel.i"
+	@echo "... src/elements/textLabel.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/terminal/terminalApp.o"
-	@echo "... src/terminal/terminalApp.i"
-	@echo "... src/terminal/terminalApp.s"
-	@echo "... src/terminal/terminalDrawEngine.o"
-	@echo "... src/terminal/terminalDrawEngine.i"
-	@echo "... src/terminal/terminalDrawEngine.s"
-	@echo "... src/terminal/terminalEnvironment.o"
-	@echo "... src/terminal/terminalEnvironment.i"
-	@echo "... src/terminal/terminalEnvironment.s"
-	@echo "... src/utils/position.o"
-	@echo "... src/utils/position.i"
-	@echo "... src/utils/position.s"
+	@echo "... src/utils/box.o"
+	@echo "... src/utils/box.i"
+	@echo "... src/utils/box.s"
+	@echo "... src/utils/box_layout_helper.o"
+	@echo "... src/utils/box_layout_helper.i"
+	@echo "... src/utils/box_layout_helper.s"
+	@echo "... src/utils/constraints.o"
+	@echo "... src/utils/constraints.i"
+	@echo "... src/utils/constraints.s"
+	@echo "... src/utils/point.o"
+	@echo "... src/utils/point.i"
+	@echo "... src/utils/point.s"
 	@echo "... src/utils/size.o"
 	@echo "... src/utils/size.i"
 	@echo "... src/utils/size.s"
-	@echo "... src/utils/textUtils.o"
-	@echo "... src/utils/textUtils.i"
-	@echo "... src/utils/textUtils.s"
 .PHONY : help
 
 

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/emilija/Desktop/banking-system/include
+CXX_INCLUDES = -I/home/emilija/Desktop/tgui/include
 
-CXX_FLAGS = -std=gnu++17
+CXX_FLAGS = -O0 -g -std=gnu++17
 

@@ -8,17 +8,18 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/emilija/Desktop/banking-system/src/components/textLabel.cpp" "CMakeFiles/MyProject.dir/src/components/textLabel.cpp.o" "gcc" "CMakeFiles/MyProject.dir/src/components/textLabel.cpp.o.d"
-  "/home/emilija/Desktop/banking-system/src/components/uiComponent.cpp" "CMakeFiles/MyProject.dir/src/components/uiComponent.cpp.o" "gcc" "CMakeFiles/MyProject.dir/src/components/uiComponent.cpp.o.d"
-  "/home/emilija/Desktop/banking-system/src/core/DisplayCell.cpp" "CMakeFiles/MyProject.dir/src/core/DisplayCell.cpp.o" "gcc" "CMakeFiles/MyProject.dir/src/core/DisplayCell.cpp.o.d"
-  "/home/emilija/Desktop/banking-system/src/core/DisplayGrid.cpp" "CMakeFiles/MyProject.dir/src/core/DisplayGrid.cpp.o" "gcc" "CMakeFiles/MyProject.dir/src/core/DisplayGrid.cpp.o.d"
-  "/home/emilija/Desktop/banking-system/src/main.cpp" "CMakeFiles/MyProject.dir/src/main.cpp.o" "gcc" "CMakeFiles/MyProject.dir/src/main.cpp.o.d"
-  "/home/emilija/Desktop/banking-system/src/terminal/terminalApp.cpp" "CMakeFiles/MyProject.dir/src/terminal/terminalApp.cpp.o" "gcc" "CMakeFiles/MyProject.dir/src/terminal/terminalApp.cpp.o.d"
-  "/home/emilija/Desktop/banking-system/src/terminal/terminalDrawEngine.cpp" "CMakeFiles/MyProject.dir/src/terminal/terminalDrawEngine.cpp.o" "gcc" "CMakeFiles/MyProject.dir/src/terminal/terminalDrawEngine.cpp.o.d"
-  "/home/emilija/Desktop/banking-system/src/terminal/terminalEnvironment.cpp" "CMakeFiles/MyProject.dir/src/terminal/terminalEnvironment.cpp.o" "gcc" "CMakeFiles/MyProject.dir/src/terminal/terminalEnvironment.cpp.o.d"
-  "/home/emilija/Desktop/banking-system/src/utils/position.cpp" "CMakeFiles/MyProject.dir/src/utils/position.cpp.o" "gcc" "CMakeFiles/MyProject.dir/src/utils/position.cpp.o.d"
-  "/home/emilija/Desktop/banking-system/src/utils/size.cpp" "CMakeFiles/MyProject.dir/src/utils/size.cpp.o" "gcc" "CMakeFiles/MyProject.dir/src/utils/size.cpp.o.d"
-  "/home/emilija/Desktop/banking-system/src/utils/textUtils.cpp" "CMakeFiles/MyProject.dir/src/utils/textUtils.cpp.o" "gcc" "CMakeFiles/MyProject.dir/src/utils/textUtils.cpp.o.d"
+  "/home/emilija/Desktop/tgui/src/core/bitmap.cpp" "CMakeFiles/MyProject.dir/src/core/bitmap.cpp.o" "gcc" "CMakeFiles/MyProject.dir/src/core/bitmap.cpp.o.d"
+  "/home/emilija/Desktop/tgui/src/core/pixel.cpp" "CMakeFiles/MyProject.dir/src/core/pixel.cpp.o" "gcc" "CMakeFiles/MyProject.dir/src/core/pixel.cpp.o.d"
+  "/home/emilija/Desktop/tgui/src/elements/container.cpp" "CMakeFiles/MyProject.dir/src/elements/container.cpp.o" "gcc" "CMakeFiles/MyProject.dir/src/elements/container.cpp.o.d"
+  "/home/emilija/Desktop/tgui/src/elements/hbox.cpp" "CMakeFiles/MyProject.dir/src/elements/hbox.cpp.o" "gcc" "CMakeFiles/MyProject.dir/src/elements/hbox.cpp.o.d"
+  "/home/emilija/Desktop/tgui/src/elements/node.cpp" "CMakeFiles/MyProject.dir/src/elements/node.cpp.o" "gcc" "CMakeFiles/MyProject.dir/src/elements/node.cpp.o.d"
+  "/home/emilija/Desktop/tgui/src/elements/textLabel.cpp" "CMakeFiles/MyProject.dir/src/elements/textLabel.cpp.o" "gcc" "CMakeFiles/MyProject.dir/src/elements/textLabel.cpp.o.d"
+  "/home/emilija/Desktop/tgui/src/main.cpp" "CMakeFiles/MyProject.dir/src/main.cpp.o" "gcc" "CMakeFiles/MyProject.dir/src/main.cpp.o.d"
+  "/home/emilija/Desktop/tgui/src/utils/box.cpp" "CMakeFiles/MyProject.dir/src/utils/box.cpp.o" "gcc" "CMakeFiles/MyProject.dir/src/utils/box.cpp.o.d"
+  "/home/emilija/Desktop/tgui/src/utils/box_layout_helper.cpp" "CMakeFiles/MyProject.dir/src/utils/box_layout_helper.cpp.o" "gcc" "CMakeFiles/MyProject.dir/src/utils/box_layout_helper.cpp.o.d"
+  "/home/emilija/Desktop/tgui/src/utils/constraints.cpp" "CMakeFiles/MyProject.dir/src/utils/constraints.cpp.o" "gcc" "CMakeFiles/MyProject.dir/src/utils/constraints.cpp.o.d"
+  "/home/emilija/Desktop/tgui/src/utils/point.cpp" "CMakeFiles/MyProject.dir/src/utils/point.cpp.o" "gcc" "CMakeFiles/MyProject.dir/src/utils/point.cpp.o.d"
+  "/home/emilija/Desktop/tgui/src/utils/size.cpp" "CMakeFiles/MyProject.dir/src/utils/size.cpp.o" "gcc" "CMakeFiles/MyProject.dir/src/utils/size.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/emilija/Desktop/banking-system
+CMAKE_SOURCE_DIR = /home/emilija/Desktop/tgui
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/emilija/Desktop/banking-system/build
+CMAKE_BINARY_DIR = /home/emilija/Desktop/tgui/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/MyProject.dir/depend.make
@@ -69,191 +69,207 @@ include CMakeFiles/MyProject.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/MyProject.dir/flags.make
 
-CMakeFiles/MyProject.dir/src/components/textLabel.cpp.o: CMakeFiles/MyProject.dir/flags.make
-CMakeFiles/MyProject.dir/src/components/textLabel.cpp.o: ../src/components/textLabel.cpp
-CMakeFiles/MyProject.dir/src/components/textLabel.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/banking-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyProject.dir/src/components/textLabel.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/components/textLabel.cpp.o -MF CMakeFiles/MyProject.dir/src/components/textLabel.cpp.o.d -o CMakeFiles/MyProject.dir/src/components/textLabel.cpp.o -c /home/emilija/Desktop/banking-system/src/components/textLabel.cpp
+CMakeFiles/MyProject.dir/src/core/bitmap.cpp.o: CMakeFiles/MyProject.dir/flags.make
+CMakeFiles/MyProject.dir/src/core/bitmap.cpp.o: ../src/core/bitmap.cpp
+CMakeFiles/MyProject.dir/src/core/bitmap.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyProject.dir/src/core/bitmap.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/core/bitmap.cpp.o -MF CMakeFiles/MyProject.dir/src/core/bitmap.cpp.o.d -o CMakeFiles/MyProject.dir/src/core/bitmap.cpp.o -c /home/emilija/Desktop/tgui/src/core/bitmap.cpp
 
-CMakeFiles/MyProject.dir/src/components/textLabel.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/src/components/textLabel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emilija/Desktop/banking-system/src/components/textLabel.cpp > CMakeFiles/MyProject.dir/src/components/textLabel.cpp.i
+CMakeFiles/MyProject.dir/src/core/bitmap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/src/core/bitmap.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emilija/Desktop/tgui/src/core/bitmap.cpp > CMakeFiles/MyProject.dir/src/core/bitmap.cpp.i
 
-CMakeFiles/MyProject.dir/src/components/textLabel.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/src/components/textLabel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emilija/Desktop/banking-system/src/components/textLabel.cpp -o CMakeFiles/MyProject.dir/src/components/textLabel.cpp.s
+CMakeFiles/MyProject.dir/src/core/bitmap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/src/core/bitmap.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emilija/Desktop/tgui/src/core/bitmap.cpp -o CMakeFiles/MyProject.dir/src/core/bitmap.cpp.s
 
-CMakeFiles/MyProject.dir/src/components/uiComponent.cpp.o: CMakeFiles/MyProject.dir/flags.make
-CMakeFiles/MyProject.dir/src/components/uiComponent.cpp.o: ../src/components/uiComponent.cpp
-CMakeFiles/MyProject.dir/src/components/uiComponent.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/banking-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyProject.dir/src/components/uiComponent.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/components/uiComponent.cpp.o -MF CMakeFiles/MyProject.dir/src/components/uiComponent.cpp.o.d -o CMakeFiles/MyProject.dir/src/components/uiComponent.cpp.o -c /home/emilija/Desktop/banking-system/src/components/uiComponent.cpp
+CMakeFiles/MyProject.dir/src/core/pixel.cpp.o: CMakeFiles/MyProject.dir/flags.make
+CMakeFiles/MyProject.dir/src/core/pixel.cpp.o: ../src/core/pixel.cpp
+CMakeFiles/MyProject.dir/src/core/pixel.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyProject.dir/src/core/pixel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/core/pixel.cpp.o -MF CMakeFiles/MyProject.dir/src/core/pixel.cpp.o.d -o CMakeFiles/MyProject.dir/src/core/pixel.cpp.o -c /home/emilija/Desktop/tgui/src/core/pixel.cpp
 
-CMakeFiles/MyProject.dir/src/components/uiComponent.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/src/components/uiComponent.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emilija/Desktop/banking-system/src/components/uiComponent.cpp > CMakeFiles/MyProject.dir/src/components/uiComponent.cpp.i
+CMakeFiles/MyProject.dir/src/core/pixel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/src/core/pixel.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emilija/Desktop/tgui/src/core/pixel.cpp > CMakeFiles/MyProject.dir/src/core/pixel.cpp.i
 
-CMakeFiles/MyProject.dir/src/components/uiComponent.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/src/components/uiComponent.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emilija/Desktop/banking-system/src/components/uiComponent.cpp -o CMakeFiles/MyProject.dir/src/components/uiComponent.cpp.s
+CMakeFiles/MyProject.dir/src/core/pixel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/src/core/pixel.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emilija/Desktop/tgui/src/core/pixel.cpp -o CMakeFiles/MyProject.dir/src/core/pixel.cpp.s
 
-CMakeFiles/MyProject.dir/src/core/DisplayCell.cpp.o: CMakeFiles/MyProject.dir/flags.make
-CMakeFiles/MyProject.dir/src/core/DisplayCell.cpp.o: ../src/core/DisplayCell.cpp
-CMakeFiles/MyProject.dir/src/core/DisplayCell.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/banking-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MyProject.dir/src/core/DisplayCell.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/core/DisplayCell.cpp.o -MF CMakeFiles/MyProject.dir/src/core/DisplayCell.cpp.o.d -o CMakeFiles/MyProject.dir/src/core/DisplayCell.cpp.o -c /home/emilija/Desktop/banking-system/src/core/DisplayCell.cpp
+CMakeFiles/MyProject.dir/src/elements/container.cpp.o: CMakeFiles/MyProject.dir/flags.make
+CMakeFiles/MyProject.dir/src/elements/container.cpp.o: ../src/elements/container.cpp
+CMakeFiles/MyProject.dir/src/elements/container.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MyProject.dir/src/elements/container.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/elements/container.cpp.o -MF CMakeFiles/MyProject.dir/src/elements/container.cpp.o.d -o CMakeFiles/MyProject.dir/src/elements/container.cpp.o -c /home/emilija/Desktop/tgui/src/elements/container.cpp
 
-CMakeFiles/MyProject.dir/src/core/DisplayCell.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/src/core/DisplayCell.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emilija/Desktop/banking-system/src/core/DisplayCell.cpp > CMakeFiles/MyProject.dir/src/core/DisplayCell.cpp.i
+CMakeFiles/MyProject.dir/src/elements/container.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/src/elements/container.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emilija/Desktop/tgui/src/elements/container.cpp > CMakeFiles/MyProject.dir/src/elements/container.cpp.i
 
-CMakeFiles/MyProject.dir/src/core/DisplayCell.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/src/core/DisplayCell.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emilija/Desktop/banking-system/src/core/DisplayCell.cpp -o CMakeFiles/MyProject.dir/src/core/DisplayCell.cpp.s
+CMakeFiles/MyProject.dir/src/elements/container.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/src/elements/container.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emilija/Desktop/tgui/src/elements/container.cpp -o CMakeFiles/MyProject.dir/src/elements/container.cpp.s
 
-CMakeFiles/MyProject.dir/src/core/DisplayGrid.cpp.o: CMakeFiles/MyProject.dir/flags.make
-CMakeFiles/MyProject.dir/src/core/DisplayGrid.cpp.o: ../src/core/DisplayGrid.cpp
-CMakeFiles/MyProject.dir/src/core/DisplayGrid.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/banking-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MyProject.dir/src/core/DisplayGrid.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/core/DisplayGrid.cpp.o -MF CMakeFiles/MyProject.dir/src/core/DisplayGrid.cpp.o.d -o CMakeFiles/MyProject.dir/src/core/DisplayGrid.cpp.o -c /home/emilija/Desktop/banking-system/src/core/DisplayGrid.cpp
+CMakeFiles/MyProject.dir/src/elements/hbox.cpp.o: CMakeFiles/MyProject.dir/flags.make
+CMakeFiles/MyProject.dir/src/elements/hbox.cpp.o: ../src/elements/hbox.cpp
+CMakeFiles/MyProject.dir/src/elements/hbox.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MyProject.dir/src/elements/hbox.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/elements/hbox.cpp.o -MF CMakeFiles/MyProject.dir/src/elements/hbox.cpp.o.d -o CMakeFiles/MyProject.dir/src/elements/hbox.cpp.o -c /home/emilija/Desktop/tgui/src/elements/hbox.cpp
 
-CMakeFiles/MyProject.dir/src/core/DisplayGrid.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/src/core/DisplayGrid.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emilija/Desktop/banking-system/src/core/DisplayGrid.cpp > CMakeFiles/MyProject.dir/src/core/DisplayGrid.cpp.i
+CMakeFiles/MyProject.dir/src/elements/hbox.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/src/elements/hbox.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emilija/Desktop/tgui/src/elements/hbox.cpp > CMakeFiles/MyProject.dir/src/elements/hbox.cpp.i
 
-CMakeFiles/MyProject.dir/src/core/DisplayGrid.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/src/core/DisplayGrid.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emilija/Desktop/banking-system/src/core/DisplayGrid.cpp -o CMakeFiles/MyProject.dir/src/core/DisplayGrid.cpp.s
+CMakeFiles/MyProject.dir/src/elements/hbox.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/src/elements/hbox.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emilija/Desktop/tgui/src/elements/hbox.cpp -o CMakeFiles/MyProject.dir/src/elements/hbox.cpp.s
+
+CMakeFiles/MyProject.dir/src/elements/node.cpp.o: CMakeFiles/MyProject.dir/flags.make
+CMakeFiles/MyProject.dir/src/elements/node.cpp.o: ../src/elements/node.cpp
+CMakeFiles/MyProject.dir/src/elements/node.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MyProject.dir/src/elements/node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/elements/node.cpp.o -MF CMakeFiles/MyProject.dir/src/elements/node.cpp.o.d -o CMakeFiles/MyProject.dir/src/elements/node.cpp.o -c /home/emilija/Desktop/tgui/src/elements/node.cpp
+
+CMakeFiles/MyProject.dir/src/elements/node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/src/elements/node.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emilija/Desktop/tgui/src/elements/node.cpp > CMakeFiles/MyProject.dir/src/elements/node.cpp.i
+
+CMakeFiles/MyProject.dir/src/elements/node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/src/elements/node.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emilija/Desktop/tgui/src/elements/node.cpp -o CMakeFiles/MyProject.dir/src/elements/node.cpp.s
+
+CMakeFiles/MyProject.dir/src/elements/textLabel.cpp.o: CMakeFiles/MyProject.dir/flags.make
+CMakeFiles/MyProject.dir/src/elements/textLabel.cpp.o: ../src/elements/textLabel.cpp
+CMakeFiles/MyProject.dir/src/elements/textLabel.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MyProject.dir/src/elements/textLabel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/elements/textLabel.cpp.o -MF CMakeFiles/MyProject.dir/src/elements/textLabel.cpp.o.d -o CMakeFiles/MyProject.dir/src/elements/textLabel.cpp.o -c /home/emilija/Desktop/tgui/src/elements/textLabel.cpp
+
+CMakeFiles/MyProject.dir/src/elements/textLabel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/src/elements/textLabel.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emilija/Desktop/tgui/src/elements/textLabel.cpp > CMakeFiles/MyProject.dir/src/elements/textLabel.cpp.i
+
+CMakeFiles/MyProject.dir/src/elements/textLabel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/src/elements/textLabel.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emilija/Desktop/tgui/src/elements/textLabel.cpp -o CMakeFiles/MyProject.dir/src/elements/textLabel.cpp.s
 
 CMakeFiles/MyProject.dir/src/main.cpp.o: CMakeFiles/MyProject.dir/flags.make
 CMakeFiles/MyProject.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/MyProject.dir/src/main.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/banking-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MyProject.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/main.cpp.o -MF CMakeFiles/MyProject.dir/src/main.cpp.o.d -o CMakeFiles/MyProject.dir/src/main.cpp.o -c /home/emilija/Desktop/banking-system/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MyProject.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/main.cpp.o -MF CMakeFiles/MyProject.dir/src/main.cpp.o.d -o CMakeFiles/MyProject.dir/src/main.cpp.o -c /home/emilija/Desktop/tgui/src/main.cpp
 
 CMakeFiles/MyProject.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emilija/Desktop/banking-system/src/main.cpp > CMakeFiles/MyProject.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emilija/Desktop/tgui/src/main.cpp > CMakeFiles/MyProject.dir/src/main.cpp.i
 
 CMakeFiles/MyProject.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emilija/Desktop/banking-system/src/main.cpp -o CMakeFiles/MyProject.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emilija/Desktop/tgui/src/main.cpp -o CMakeFiles/MyProject.dir/src/main.cpp.s
 
-CMakeFiles/MyProject.dir/src/terminal/terminalApp.cpp.o: CMakeFiles/MyProject.dir/flags.make
-CMakeFiles/MyProject.dir/src/terminal/terminalApp.cpp.o: ../src/terminal/terminalApp.cpp
-CMakeFiles/MyProject.dir/src/terminal/terminalApp.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/banking-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MyProject.dir/src/terminal/terminalApp.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/terminal/terminalApp.cpp.o -MF CMakeFiles/MyProject.dir/src/terminal/terminalApp.cpp.o.d -o CMakeFiles/MyProject.dir/src/terminal/terminalApp.cpp.o -c /home/emilija/Desktop/banking-system/src/terminal/terminalApp.cpp
+CMakeFiles/MyProject.dir/src/utils/box.cpp.o: CMakeFiles/MyProject.dir/flags.make
+CMakeFiles/MyProject.dir/src/utils/box.cpp.o: ../src/utils/box.cpp
+CMakeFiles/MyProject.dir/src/utils/box.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MyProject.dir/src/utils/box.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/utils/box.cpp.o -MF CMakeFiles/MyProject.dir/src/utils/box.cpp.o.d -o CMakeFiles/MyProject.dir/src/utils/box.cpp.o -c /home/emilija/Desktop/tgui/src/utils/box.cpp
 
-CMakeFiles/MyProject.dir/src/terminal/terminalApp.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/src/terminal/terminalApp.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emilija/Desktop/banking-system/src/terminal/terminalApp.cpp > CMakeFiles/MyProject.dir/src/terminal/terminalApp.cpp.i
+CMakeFiles/MyProject.dir/src/utils/box.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/src/utils/box.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emilija/Desktop/tgui/src/utils/box.cpp > CMakeFiles/MyProject.dir/src/utils/box.cpp.i
 
-CMakeFiles/MyProject.dir/src/terminal/terminalApp.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/src/terminal/terminalApp.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emilija/Desktop/banking-system/src/terminal/terminalApp.cpp -o CMakeFiles/MyProject.dir/src/terminal/terminalApp.cpp.s
+CMakeFiles/MyProject.dir/src/utils/box.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/src/utils/box.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emilija/Desktop/tgui/src/utils/box.cpp -o CMakeFiles/MyProject.dir/src/utils/box.cpp.s
 
-CMakeFiles/MyProject.dir/src/terminal/terminalDrawEngine.cpp.o: CMakeFiles/MyProject.dir/flags.make
-CMakeFiles/MyProject.dir/src/terminal/terminalDrawEngine.cpp.o: ../src/terminal/terminalDrawEngine.cpp
-CMakeFiles/MyProject.dir/src/terminal/terminalDrawEngine.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/banking-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MyProject.dir/src/terminal/terminalDrawEngine.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/terminal/terminalDrawEngine.cpp.o -MF CMakeFiles/MyProject.dir/src/terminal/terminalDrawEngine.cpp.o.d -o CMakeFiles/MyProject.dir/src/terminal/terminalDrawEngine.cpp.o -c /home/emilija/Desktop/banking-system/src/terminal/terminalDrawEngine.cpp
+CMakeFiles/MyProject.dir/src/utils/box_layout_helper.cpp.o: CMakeFiles/MyProject.dir/flags.make
+CMakeFiles/MyProject.dir/src/utils/box_layout_helper.cpp.o: ../src/utils/box_layout_helper.cpp
+CMakeFiles/MyProject.dir/src/utils/box_layout_helper.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MyProject.dir/src/utils/box_layout_helper.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/utils/box_layout_helper.cpp.o -MF CMakeFiles/MyProject.dir/src/utils/box_layout_helper.cpp.o.d -o CMakeFiles/MyProject.dir/src/utils/box_layout_helper.cpp.o -c /home/emilija/Desktop/tgui/src/utils/box_layout_helper.cpp
 
-CMakeFiles/MyProject.dir/src/terminal/terminalDrawEngine.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/src/terminal/terminalDrawEngine.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emilija/Desktop/banking-system/src/terminal/terminalDrawEngine.cpp > CMakeFiles/MyProject.dir/src/terminal/terminalDrawEngine.cpp.i
+CMakeFiles/MyProject.dir/src/utils/box_layout_helper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/src/utils/box_layout_helper.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emilija/Desktop/tgui/src/utils/box_layout_helper.cpp > CMakeFiles/MyProject.dir/src/utils/box_layout_helper.cpp.i
 
-CMakeFiles/MyProject.dir/src/terminal/terminalDrawEngine.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/src/terminal/terminalDrawEngine.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emilija/Desktop/banking-system/src/terminal/terminalDrawEngine.cpp -o CMakeFiles/MyProject.dir/src/terminal/terminalDrawEngine.cpp.s
+CMakeFiles/MyProject.dir/src/utils/box_layout_helper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/src/utils/box_layout_helper.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emilija/Desktop/tgui/src/utils/box_layout_helper.cpp -o CMakeFiles/MyProject.dir/src/utils/box_layout_helper.cpp.s
 
-CMakeFiles/MyProject.dir/src/terminal/terminalEnvironment.cpp.o: CMakeFiles/MyProject.dir/flags.make
-CMakeFiles/MyProject.dir/src/terminal/terminalEnvironment.cpp.o: ../src/terminal/terminalEnvironment.cpp
-CMakeFiles/MyProject.dir/src/terminal/terminalEnvironment.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/banking-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MyProject.dir/src/terminal/terminalEnvironment.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/terminal/terminalEnvironment.cpp.o -MF CMakeFiles/MyProject.dir/src/terminal/terminalEnvironment.cpp.o.d -o CMakeFiles/MyProject.dir/src/terminal/terminalEnvironment.cpp.o -c /home/emilija/Desktop/banking-system/src/terminal/terminalEnvironment.cpp
+CMakeFiles/MyProject.dir/src/utils/constraints.cpp.o: CMakeFiles/MyProject.dir/flags.make
+CMakeFiles/MyProject.dir/src/utils/constraints.cpp.o: ../src/utils/constraints.cpp
+CMakeFiles/MyProject.dir/src/utils/constraints.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/MyProject.dir/src/utils/constraints.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/utils/constraints.cpp.o -MF CMakeFiles/MyProject.dir/src/utils/constraints.cpp.o.d -o CMakeFiles/MyProject.dir/src/utils/constraints.cpp.o -c /home/emilija/Desktop/tgui/src/utils/constraints.cpp
 
-CMakeFiles/MyProject.dir/src/terminal/terminalEnvironment.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/src/terminal/terminalEnvironment.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emilija/Desktop/banking-system/src/terminal/terminalEnvironment.cpp > CMakeFiles/MyProject.dir/src/terminal/terminalEnvironment.cpp.i
+CMakeFiles/MyProject.dir/src/utils/constraints.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/src/utils/constraints.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emilija/Desktop/tgui/src/utils/constraints.cpp > CMakeFiles/MyProject.dir/src/utils/constraints.cpp.i
 
-CMakeFiles/MyProject.dir/src/terminal/terminalEnvironment.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/src/terminal/terminalEnvironment.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emilija/Desktop/banking-system/src/terminal/terminalEnvironment.cpp -o CMakeFiles/MyProject.dir/src/terminal/terminalEnvironment.cpp.s
+CMakeFiles/MyProject.dir/src/utils/constraints.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/src/utils/constraints.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emilija/Desktop/tgui/src/utils/constraints.cpp -o CMakeFiles/MyProject.dir/src/utils/constraints.cpp.s
 
-CMakeFiles/MyProject.dir/src/utils/position.cpp.o: CMakeFiles/MyProject.dir/flags.make
-CMakeFiles/MyProject.dir/src/utils/position.cpp.o: ../src/utils/position.cpp
-CMakeFiles/MyProject.dir/src/utils/position.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/banking-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MyProject.dir/src/utils/position.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/utils/position.cpp.o -MF CMakeFiles/MyProject.dir/src/utils/position.cpp.o.d -o CMakeFiles/MyProject.dir/src/utils/position.cpp.o -c /home/emilija/Desktop/banking-system/src/utils/position.cpp
+CMakeFiles/MyProject.dir/src/utils/point.cpp.o: CMakeFiles/MyProject.dir/flags.make
+CMakeFiles/MyProject.dir/src/utils/point.cpp.o: ../src/utils/point.cpp
+CMakeFiles/MyProject.dir/src/utils/point.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/MyProject.dir/src/utils/point.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/utils/point.cpp.o -MF CMakeFiles/MyProject.dir/src/utils/point.cpp.o.d -o CMakeFiles/MyProject.dir/src/utils/point.cpp.o -c /home/emilija/Desktop/tgui/src/utils/point.cpp
 
-CMakeFiles/MyProject.dir/src/utils/position.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/src/utils/position.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emilija/Desktop/banking-system/src/utils/position.cpp > CMakeFiles/MyProject.dir/src/utils/position.cpp.i
+CMakeFiles/MyProject.dir/src/utils/point.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/src/utils/point.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emilija/Desktop/tgui/src/utils/point.cpp > CMakeFiles/MyProject.dir/src/utils/point.cpp.i
 
-CMakeFiles/MyProject.dir/src/utils/position.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/src/utils/position.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emilija/Desktop/banking-system/src/utils/position.cpp -o CMakeFiles/MyProject.dir/src/utils/position.cpp.s
+CMakeFiles/MyProject.dir/src/utils/point.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/src/utils/point.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emilija/Desktop/tgui/src/utils/point.cpp -o CMakeFiles/MyProject.dir/src/utils/point.cpp.s
 
 CMakeFiles/MyProject.dir/src/utils/size.cpp.o: CMakeFiles/MyProject.dir/flags.make
 CMakeFiles/MyProject.dir/src/utils/size.cpp.o: ../src/utils/size.cpp
 CMakeFiles/MyProject.dir/src/utils/size.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/banking-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/MyProject.dir/src/utils/size.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/utils/size.cpp.o -MF CMakeFiles/MyProject.dir/src/utils/size.cpp.o.d -o CMakeFiles/MyProject.dir/src/utils/size.cpp.o -c /home/emilija/Desktop/banking-system/src/utils/size.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/MyProject.dir/src/utils/size.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/utils/size.cpp.o -MF CMakeFiles/MyProject.dir/src/utils/size.cpp.o.d -o CMakeFiles/MyProject.dir/src/utils/size.cpp.o -c /home/emilija/Desktop/tgui/src/utils/size.cpp
 
 CMakeFiles/MyProject.dir/src/utils/size.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/src/utils/size.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emilija/Desktop/banking-system/src/utils/size.cpp > CMakeFiles/MyProject.dir/src/utils/size.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emilija/Desktop/tgui/src/utils/size.cpp > CMakeFiles/MyProject.dir/src/utils/size.cpp.i
 
 CMakeFiles/MyProject.dir/src/utils/size.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/src/utils/size.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emilija/Desktop/banking-system/src/utils/size.cpp -o CMakeFiles/MyProject.dir/src/utils/size.cpp.s
-
-CMakeFiles/MyProject.dir/src/utils/textUtils.cpp.o: CMakeFiles/MyProject.dir/flags.make
-CMakeFiles/MyProject.dir/src/utils/textUtils.cpp.o: ../src/utils/textUtils.cpp
-CMakeFiles/MyProject.dir/src/utils/textUtils.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/banking-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/MyProject.dir/src/utils/textUtils.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/utils/textUtils.cpp.o -MF CMakeFiles/MyProject.dir/src/utils/textUtils.cpp.o.d -o CMakeFiles/MyProject.dir/src/utils/textUtils.cpp.o -c /home/emilija/Desktop/banking-system/src/utils/textUtils.cpp
-
-CMakeFiles/MyProject.dir/src/utils/textUtils.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/src/utils/textUtils.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emilija/Desktop/banking-system/src/utils/textUtils.cpp > CMakeFiles/MyProject.dir/src/utils/textUtils.cpp.i
-
-CMakeFiles/MyProject.dir/src/utils/textUtils.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/src/utils/textUtils.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emilija/Desktop/banking-system/src/utils/textUtils.cpp -o CMakeFiles/MyProject.dir/src/utils/textUtils.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emilija/Desktop/tgui/src/utils/size.cpp -o CMakeFiles/MyProject.dir/src/utils/size.cpp.s
 
 # Object files for target MyProject
 MyProject_OBJECTS = \
-"CMakeFiles/MyProject.dir/src/components/textLabel.cpp.o" \
-"CMakeFiles/MyProject.dir/src/components/uiComponent.cpp.o" \
-"CMakeFiles/MyProject.dir/src/core/DisplayCell.cpp.o" \
-"CMakeFiles/MyProject.dir/src/core/DisplayGrid.cpp.o" \
+"CMakeFiles/MyProject.dir/src/core/bitmap.cpp.o" \
+"CMakeFiles/MyProject.dir/src/core/pixel.cpp.o" \
+"CMakeFiles/MyProject.dir/src/elements/container.cpp.o" \
+"CMakeFiles/MyProject.dir/src/elements/hbox.cpp.o" \
+"CMakeFiles/MyProject.dir/src/elements/node.cpp.o" \
+"CMakeFiles/MyProject.dir/src/elements/textLabel.cpp.o" \
 "CMakeFiles/MyProject.dir/src/main.cpp.o" \
-"CMakeFiles/MyProject.dir/src/terminal/terminalApp.cpp.o" \
-"CMakeFiles/MyProject.dir/src/terminal/terminalDrawEngine.cpp.o" \
-"CMakeFiles/MyProject.dir/src/terminal/terminalEnvironment.cpp.o" \
-"CMakeFiles/MyProject.dir/src/utils/position.cpp.o" \
-"CMakeFiles/MyProject.dir/src/utils/size.cpp.o" \
-"CMakeFiles/MyProject.dir/src/utils/textUtils.cpp.o"
+"CMakeFiles/MyProject.dir/src/utils/box.cpp.o" \
+"CMakeFiles/MyProject.dir/src/utils/box_layout_helper.cpp.o" \
+"CMakeFiles/MyProject.dir/src/utils/constraints.cpp.o" \
+"CMakeFiles/MyProject.dir/src/utils/point.cpp.o" \
+"CMakeFiles/MyProject.dir/src/utils/size.cpp.o"
 
 # External object files for target MyProject
 MyProject_EXTERNAL_OBJECTS =
 
-MyProject: CMakeFiles/MyProject.dir/src/components/textLabel.cpp.o
-MyProject: CMakeFiles/MyProject.dir/src/components/uiComponent.cpp.o
-MyProject: CMakeFiles/MyProject.dir/src/core/DisplayCell.cpp.o
-MyProject: CMakeFiles/MyProject.dir/src/core/DisplayGrid.cpp.o
+MyProject: CMakeFiles/MyProject.dir/src/core/bitmap.cpp.o
+MyProject: CMakeFiles/MyProject.dir/src/core/pixel.cpp.o
+MyProject: CMakeFiles/MyProject.dir/src/elements/container.cpp.o
+MyProject: CMakeFiles/MyProject.dir/src/elements/hbox.cpp.o
+MyProject: CMakeFiles/MyProject.dir/src/elements/node.cpp.o
+MyProject: CMakeFiles/MyProject.dir/src/elements/textLabel.cpp.o
 MyProject: CMakeFiles/MyProject.dir/src/main.cpp.o
-MyProject: CMakeFiles/MyProject.dir/src/terminal/terminalApp.cpp.o
-MyProject: CMakeFiles/MyProject.dir/src/terminal/terminalDrawEngine.cpp.o
-MyProject: CMakeFiles/MyProject.dir/src/terminal/terminalEnvironment.cpp.o
-MyProject: CMakeFiles/MyProject.dir/src/utils/position.cpp.o
+MyProject: CMakeFiles/MyProject.dir/src/utils/box.cpp.o
+MyProject: CMakeFiles/MyProject.dir/src/utils/box_layout_helper.cpp.o
+MyProject: CMakeFiles/MyProject.dir/src/utils/constraints.cpp.o
+MyProject: CMakeFiles/MyProject.dir/src/utils/point.cpp.o
 MyProject: CMakeFiles/MyProject.dir/src/utils/size.cpp.o
-MyProject: CMakeFiles/MyProject.dir/src/utils/textUtils.cpp.o
 MyProject: CMakeFiles/MyProject.dir/build.make
 MyProject: CMakeFiles/MyProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/emilija/Desktop/banking-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable MyProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable MyProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MyProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -265,6 +281,6 @@ CMakeFiles/MyProject.dir/clean:
 .PHONY : CMakeFiles/MyProject.dir/clean
 
 CMakeFiles/MyProject.dir/depend:
-	cd /home/emilija/Desktop/banking-system/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/emilija/Desktop/banking-system /home/emilija/Desktop/banking-system /home/emilija/Desktop/banking-system/build /home/emilija/Desktop/banking-system/build /home/emilija/Desktop/banking-system/build/CMakeFiles/MyProject.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/emilija/Desktop/tgui/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/emilija/Desktop/tgui /home/emilija/Desktop/tgui /home/emilija/Desktop/tgui/build /home/emilija/Desktop/tgui/build /home/emilija/Desktop/tgui/build/CMakeFiles/MyProject.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/MyProject.dir/depend
 
