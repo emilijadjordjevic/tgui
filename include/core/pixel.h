@@ -13,6 +13,7 @@ enum TextStyle {
     ITALIC = 1 << 3,
 };
 
+
 class Pixel {
 private:
     char _ch;

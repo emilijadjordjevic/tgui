@@ -223,4 +223,10 @@ CMakeFiles/MyProject.dir/src/utils/factory.cpp.o: \
  /home/emilija/Desktop/tgui/include/elements/vbox.h \
  /home/emilija/Desktop/tgui/include/elements/progressBar.h \
  /home/emilija/Desktop/tgui/include/elements/node.h \
- /home/emilija/Desktop/tgui/include/decorator/border.h
+ /home/emilija/Desktop/tgui/include/decorator/border.h \
+ /home/emilija/Desktop/tgui/include/decorator/node_decorator.h \
+ /home/emilija/Desktop/tgui/include/decorator/spacing_decorator.h \
+ /home/emilija/Desktop/tgui/include/decorator/bold.h \
+ /home/emilija/Desktop/tgui/include/decorator/italic.h \
+ /home/emilija/Desktop/tgui/include/decorator/underline.h \
+ /home/emilija/Desktop/tgui/include/decorator/strikethrough.h

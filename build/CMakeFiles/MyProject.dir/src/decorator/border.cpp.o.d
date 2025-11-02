@@ -2,6 +2,7 @@ CMakeFiles/MyProject.dir/src/decorator/border.cpp.o: \
  /home/emilija/Desktop/tgui/src/decorator/border.cpp \
  /usr/include/stdc-predef.h \
  /home/emilija/Desktop/tgui/include/decorator/border.h \
+ /home/emilija/Desktop/tgui/include/decorator/node_decorator.h \
  /home/emilija/Desktop/tgui/include/elements/node.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -216,4 +217,5 @@ CMakeFiles/MyProject.dir/src/decorator/border.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/termios-c_lflag.h \
  /usr/include/x86_64-linux-gnu/bits/termios-tcflow.h \
  /usr/include/x86_64-linux-gnu/bits/termios-misc.h \
- /usr/include/x86_64-linux-gnu/sys/ttydefaults.h
+ /usr/include/x86_64-linux-gnu/sys/ttydefaults.h \
+ /home/emilija/Desktop/tgui/include/decorator/spacing_decorator.h

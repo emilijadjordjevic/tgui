@@ -2,6 +2,7 @@
 
 Decorator::Decorator(Element e) : Node() {
     _element = e;
+    setFlexGrow(1,1);
 }
 
 void Decorator::computeRequirement() {

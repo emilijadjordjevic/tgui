@@ -16,10 +16,6 @@ void IContainer::render(Bitmap& screen) {
     }
 }
 
-int IContainer::getLayer() const {
-    return static_cast<int>(NodeLayer::Content);
-}
-
 void IContainer::add(const Element& e) {
     _elements.push_back(e);
 }

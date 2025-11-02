@@ -11,9 +11,8 @@ public:
     Decorator(Element);
 
     virtual void computeRequirement() override;
-    virtual void ComputeMinSize() override;
     virtual void layout(Box&) override;
-    virtual void render(Bitmap&) override = 0;   
+    virtual void render(Bitmap&) override = 0;
     virtual int getLayer() const override = 0;
 };
 

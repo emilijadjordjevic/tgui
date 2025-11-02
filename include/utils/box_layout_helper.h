@@ -21,6 +21,10 @@ namespace box_layout {
     void distributeExtraSpace(vector<BoxHelper>& elements, int space, double flexSum, int);
     void shrinkElementsByFlex(vector<BoxHelper>& elements, int space, double flexSize, int targetSize, int);
     void shrinkToFit(vector<BoxHelper>& elements, int overflow, int elementSum);
+
+    void computeFlexGrow(vector<BoxHelper>& elements, int extra_space, int flex_grow_sum);
+    void computeShrinkEasy(vector<BoxHelper>& elements, int extra_space, int flex_shrink_sum);
+    void computeShrinkHard(vector<BoxHelper>& elements, int extra_space, int size);
 }
 
 #endif

@@ -12,41 +12,99 @@ ostream& operator<<(ostream& os, const BoxHelper& other) {
 
 namespace box_layout {
     void compute(vector<BoxHelper>& elements, int available_space) {
+        // int size = 0;
+        // int flex_grow_sum = 0;
+        // int flex_shrink_sum = 0;
+        // int flex_shirnk_size = 0;
+        // int flex_grow_size = 0;
+        // // int flexDirection = 1;
+
+        // for (auto& child : elements) {
+        //     flex_grow_sum += child.flex_grow;
+        //     flex_shrink_sum += child.flex_shrink;
+        //     size += child.minSize;
+        //     // cout << "SIZEMINSIZE: " << size << endl;
+
+        //     if (child.flex_grow) {
+        //         flex_grow_size += child.minSize * child.flex_grow;
+        //     }
+
+        //     if (child.flex_shrink) {
+        //         flex_shirnk_size += child.minSize * child.flex_shrink;
+        //     }
+        // }
+
+        // int space_left = available_space - size;
+        // // cout << "SPACE LEFT: " << space_left << endl;
+
+        // if (!space_left) {
+        //     return;
+        // }
+        
+        // if (space_left > 0) {
+        //     cout << "FLEX SUM" << endl;
+        //     if (flex_grow_sum) distributeExtraSpace(elements, space_left, flex_grow_sum, flex_grow_size);
+        // } else  {
+        //     cout << "FLEX SHINK" << endl;
+        //     if (flex_shrink_sum) {
+        //         shrinkElementsByFlex(elements, space_left, flex_shrink_sum, available_space, flex_shirnk_size);
+        //     } else {
+        //         shrinkToFit(elements, space_left, size);
+        //     }
+        // }
+
         int size = 0;
         int flex_grow_sum = 0;
         int flex_shrink_sum = 0;
-        int flex_shirnk_size = 0;
-        int flex_grow_size = 0;
-        int flexDirection = 1;
+        int flex_shrink_size = 0;
 
-        for (auto& child : elements) {
-            flex_grow_sum += child.flex_grow;
-            flex_shrink_sum += child.flex_shrink;
-            size += child.minSize;
-
-            if (child.flex_grow) {
-                flex_grow_size += child.minSize * child.flex_grow;
-            }
-
-            if (child.flex_shrink) {
-                flex_shirnk_size += child.minSize * child.flex_shrink;
-            }
+        for (auto& element : elements) {
+            flex_grow_sum += element.flex_grow;
+            flex_shrink_sum += element.minSize * element.flex_shrink;
+            if (element.flex_shrink != 0) 
+                flex_shrink_size += element.minSize;
+            size += element.minSize;
         }
 
-        int space_left = available_space - size;
+        const int extra_space = available_space - size;
 
-        if (!space_left) {
-            return;
+        if (extra_space >= 0) {
+            computeFlexGrow(elements, extra_space, flex_grow_sum);
+        } else if (flex_shrink_size + extra_space >= 0) {
+            computeShrinkEasy(elements, extra_space, flex_shrink_sum);
+        } else {
+            computeShrinkHard(elements, extra_space + flex_shrink_size, size - flex_shrink_size);
         }
-        
-        if (space_left > 0) {
-            if (flex_grow_sum) distributeExtraSpace(elements, space_left, flex_grow_sum, flex_grow_size);
-        } else  {
-            if (flex_shrink_sum) {
-                shrinkElementsByFlex(elements, space_left, flex_shrink_sum, available_space, flex_shirnk_size);
-            } else {
-                shrinkToFit(elements, space_left, size);
+    }
+
+    void computeShrinkHard(vector<BoxHelper>& elements, int extra_space, int size) {
+        for (auto& element : elements) {
+            if (element.flex_shrink != 0) {
+                element.minSize = 0;
+                continue;
             }
+
+            const int added_space = extra_space * element.minSize;
+            extra_space -= added_space;
+            size -= element.minSize;
+
+            element.minSize = element.minSize + added_space;
+        }
+    }
+    void computeShrinkEasy(vector<BoxHelper>& elements, int extra_space, int flex_shrink_sum) {
+        for (auto& element : elements) {
+            const int added_space = extra_space * element.minSize * element.flex_shrink / max(flex_shrink_sum, 1);
+            extra_space -= added_space;
+            flex_shrink_sum -= element.flex_shrink * element.minSize;
+            element.minSize = element.minSize + added_space;
+        }
+    }
+    void computeFlexGrow(vector<BoxHelper>& elements, int extra_space, int flex_grow_sum) {
+        for (auto& element : elements) {
+            const int added_space = extra_space * element.flex_grow / max(flex_grow_sum, 1);
+            extra_space -= added_space;
+            flex_grow_sum -= element.flex_grow;
+            element.minSize = element.minSize + added_space;
         }
     }
 

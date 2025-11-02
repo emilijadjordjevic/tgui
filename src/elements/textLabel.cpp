@@ -2,7 +2,7 @@
 #include <sstream>
 #include <algorithm>
 
-TextLabel::TextLabel(string s) : Node(), _content(s) {}
+TextLabel::TextLabel(string s) : Node(), _content(s) { setFlexGrow(1,1); }
 
 void TextLabel::computeRequirement() {
     // if (_constraints.getPrefSize() == Size(0,0)) {

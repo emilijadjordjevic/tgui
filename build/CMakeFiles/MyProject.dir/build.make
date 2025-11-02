@@ -83,10 +83,24 @@ CMakeFiles/MyProject.dir/src/ansi/ansi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/src/ansi/ansi.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emilija/Desktop/tgui/src/ansi/ansi.cpp -o CMakeFiles/MyProject.dir/src/ansi/ansi.cpp.s
 
+CMakeFiles/MyProject.dir/src/box_test.cpp.o: CMakeFiles/MyProject.dir/flags.make
+CMakeFiles/MyProject.dir/src/box_test.cpp.o: ../src/box_test.cpp
+CMakeFiles/MyProject.dir/src/box_test.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyProject.dir/src/box_test.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/box_test.cpp.o -MF CMakeFiles/MyProject.dir/src/box_test.cpp.o.d -o CMakeFiles/MyProject.dir/src/box_test.cpp.o -c /home/emilija/Desktop/tgui/src/box_test.cpp
+
+CMakeFiles/MyProject.dir/src/box_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/src/box_test.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emilija/Desktop/tgui/src/box_test.cpp > CMakeFiles/MyProject.dir/src/box_test.cpp.i
+
+CMakeFiles/MyProject.dir/src/box_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/src/box_test.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emilija/Desktop/tgui/src/box_test.cpp -o CMakeFiles/MyProject.dir/src/box_test.cpp.s
+
 CMakeFiles/MyProject.dir/src/core/bitmap.cpp.o: CMakeFiles/MyProject.dir/flags.make
 CMakeFiles/MyProject.dir/src/core/bitmap.cpp.o: ../src/core/bitmap.cpp
 CMakeFiles/MyProject.dir/src/core/bitmap.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyProject.dir/src/core/bitmap.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MyProject.dir/src/core/bitmap.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/core/bitmap.cpp.o -MF CMakeFiles/MyProject.dir/src/core/bitmap.cpp.o.d -o CMakeFiles/MyProject.dir/src/core/bitmap.cpp.o -c /home/emilija/Desktop/tgui/src/core/bitmap.cpp
 
 CMakeFiles/MyProject.dir/src/core/bitmap.cpp.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/MyProject.dir/src/core/bitmap.cpp.s: cmake_force
 CMakeFiles/MyProject.dir/src/core/pixel.cpp.o: CMakeFiles/MyProject.dir/flags.make
 CMakeFiles/MyProject.dir/src/core/pixel.cpp.o: ../src/core/pixel.cpp
 CMakeFiles/MyProject.dir/src/core/pixel.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MyProject.dir/src/core/pixel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MyProject.dir/src/core/pixel.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/core/pixel.cpp.o -MF CMakeFiles/MyProject.dir/src/core/pixel.cpp.o.d -o CMakeFiles/MyProject.dir/src/core/pixel.cpp.o -c /home/emilija/Desktop/tgui/src/core/pixel.cpp
 
 CMakeFiles/MyProject.dir/src/core/pixel.cpp.i: cmake_force
@@ -111,10 +125,24 @@ CMakeFiles/MyProject.dir/src/core/pixel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/src/core/pixel.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emilija/Desktop/tgui/src/core/pixel.cpp -o CMakeFiles/MyProject.dir/src/core/pixel.cpp.s
 
+CMakeFiles/MyProject.dir/src/decorator/bold.cpp.o: CMakeFiles/MyProject.dir/flags.make
+CMakeFiles/MyProject.dir/src/decorator/bold.cpp.o: ../src/decorator/bold.cpp
+CMakeFiles/MyProject.dir/src/decorator/bold.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MyProject.dir/src/decorator/bold.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/decorator/bold.cpp.o -MF CMakeFiles/MyProject.dir/src/decorator/bold.cpp.o.d -o CMakeFiles/MyProject.dir/src/decorator/bold.cpp.o -c /home/emilija/Desktop/tgui/src/decorator/bold.cpp
+
+CMakeFiles/MyProject.dir/src/decorator/bold.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/src/decorator/bold.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emilija/Desktop/tgui/src/decorator/bold.cpp > CMakeFiles/MyProject.dir/src/decorator/bold.cpp.i
+
+CMakeFiles/MyProject.dir/src/decorator/bold.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/src/decorator/bold.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emilija/Desktop/tgui/src/decorator/bold.cpp -o CMakeFiles/MyProject.dir/src/decorator/bold.cpp.s
+
 CMakeFiles/MyProject.dir/src/decorator/border.cpp.o: CMakeFiles/MyProject.dir/flags.make
 CMakeFiles/MyProject.dir/src/decorator/border.cpp.o: ../src/decorator/border.cpp
 CMakeFiles/MyProject.dir/src/decorator/border.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MyProject.dir/src/decorator/border.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MyProject.dir/src/decorator/border.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/decorator/border.cpp.o -MF CMakeFiles/MyProject.dir/src/decorator/border.cpp.o.d -o CMakeFiles/MyProject.dir/src/decorator/border.cpp.o -c /home/emilija/Desktop/tgui/src/decorator/border.cpp
 
 CMakeFiles/MyProject.dir/src/decorator/border.cpp.i: cmake_force
@@ -128,7 +156,7 @@ CMakeFiles/MyProject.dir/src/decorator/border.cpp.s: cmake_force
 CMakeFiles/MyProject.dir/src/decorator/decorator.cpp.o: CMakeFiles/MyProject.dir/flags.make
 CMakeFiles/MyProject.dir/src/decorator/decorator.cpp.o: ../src/decorator/decorator.cpp
 CMakeFiles/MyProject.dir/src/decorator/decorator.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MyProject.dir/src/decorator/decorator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MyProject.dir/src/decorator/decorator.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/decorator/decorator.cpp.o -MF CMakeFiles/MyProject.dir/src/decorator/decorator.cpp.o.d -o CMakeFiles/MyProject.dir/src/decorator/decorator.cpp.o -c /home/emilija/Desktop/tgui/src/decorator/decorator.cpp
 
 CMakeFiles/MyProject.dir/src/decorator/decorator.cpp.i: cmake_force
@@ -139,10 +167,108 @@ CMakeFiles/MyProject.dir/src/decorator/decorator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/src/decorator/decorator.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emilija/Desktop/tgui/src/decorator/decorator.cpp -o CMakeFiles/MyProject.dir/src/decorator/decorator.cpp.s
 
+CMakeFiles/MyProject.dir/src/decorator/italic.cpp.o: CMakeFiles/MyProject.dir/flags.make
+CMakeFiles/MyProject.dir/src/decorator/italic.cpp.o: ../src/decorator/italic.cpp
+CMakeFiles/MyProject.dir/src/decorator/italic.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MyProject.dir/src/decorator/italic.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/decorator/italic.cpp.o -MF CMakeFiles/MyProject.dir/src/decorator/italic.cpp.o.d -o CMakeFiles/MyProject.dir/src/decorator/italic.cpp.o -c /home/emilija/Desktop/tgui/src/decorator/italic.cpp
+
+CMakeFiles/MyProject.dir/src/decorator/italic.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/src/decorator/italic.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emilija/Desktop/tgui/src/decorator/italic.cpp > CMakeFiles/MyProject.dir/src/decorator/italic.cpp.i
+
+CMakeFiles/MyProject.dir/src/decorator/italic.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/src/decorator/italic.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emilija/Desktop/tgui/src/decorator/italic.cpp -o CMakeFiles/MyProject.dir/src/decorator/italic.cpp.s
+
+CMakeFiles/MyProject.dir/src/decorator/margin.cpp.o: CMakeFiles/MyProject.dir/flags.make
+CMakeFiles/MyProject.dir/src/decorator/margin.cpp.o: ../src/decorator/margin.cpp
+CMakeFiles/MyProject.dir/src/decorator/margin.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MyProject.dir/src/decorator/margin.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/decorator/margin.cpp.o -MF CMakeFiles/MyProject.dir/src/decorator/margin.cpp.o.d -o CMakeFiles/MyProject.dir/src/decorator/margin.cpp.o -c /home/emilija/Desktop/tgui/src/decorator/margin.cpp
+
+CMakeFiles/MyProject.dir/src/decorator/margin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/src/decorator/margin.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emilija/Desktop/tgui/src/decorator/margin.cpp > CMakeFiles/MyProject.dir/src/decorator/margin.cpp.i
+
+CMakeFiles/MyProject.dir/src/decorator/margin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/src/decorator/margin.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emilija/Desktop/tgui/src/decorator/margin.cpp -o CMakeFiles/MyProject.dir/src/decorator/margin.cpp.s
+
+CMakeFiles/MyProject.dir/src/decorator/node_decorator.cpp.o: CMakeFiles/MyProject.dir/flags.make
+CMakeFiles/MyProject.dir/src/decorator/node_decorator.cpp.o: ../src/decorator/node_decorator.cpp
+CMakeFiles/MyProject.dir/src/decorator/node_decorator.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/MyProject.dir/src/decorator/node_decorator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/decorator/node_decorator.cpp.o -MF CMakeFiles/MyProject.dir/src/decorator/node_decorator.cpp.o.d -o CMakeFiles/MyProject.dir/src/decorator/node_decorator.cpp.o -c /home/emilija/Desktop/tgui/src/decorator/node_decorator.cpp
+
+CMakeFiles/MyProject.dir/src/decorator/node_decorator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/src/decorator/node_decorator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emilija/Desktop/tgui/src/decorator/node_decorator.cpp > CMakeFiles/MyProject.dir/src/decorator/node_decorator.cpp.i
+
+CMakeFiles/MyProject.dir/src/decorator/node_decorator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/src/decorator/node_decorator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emilija/Desktop/tgui/src/decorator/node_decorator.cpp -o CMakeFiles/MyProject.dir/src/decorator/node_decorator.cpp.s
+
+CMakeFiles/MyProject.dir/src/decorator/padding.cpp.o: CMakeFiles/MyProject.dir/flags.make
+CMakeFiles/MyProject.dir/src/decorator/padding.cpp.o: ../src/decorator/padding.cpp
+CMakeFiles/MyProject.dir/src/decorator/padding.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/MyProject.dir/src/decorator/padding.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/decorator/padding.cpp.o -MF CMakeFiles/MyProject.dir/src/decorator/padding.cpp.o.d -o CMakeFiles/MyProject.dir/src/decorator/padding.cpp.o -c /home/emilija/Desktop/tgui/src/decorator/padding.cpp
+
+CMakeFiles/MyProject.dir/src/decorator/padding.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/src/decorator/padding.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emilija/Desktop/tgui/src/decorator/padding.cpp > CMakeFiles/MyProject.dir/src/decorator/padding.cpp.i
+
+CMakeFiles/MyProject.dir/src/decorator/padding.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/src/decorator/padding.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emilija/Desktop/tgui/src/decorator/padding.cpp -o CMakeFiles/MyProject.dir/src/decorator/padding.cpp.s
+
+CMakeFiles/MyProject.dir/src/decorator/spacing_decorator.cpp.o: CMakeFiles/MyProject.dir/flags.make
+CMakeFiles/MyProject.dir/src/decorator/spacing_decorator.cpp.o: ../src/decorator/spacing_decorator.cpp
+CMakeFiles/MyProject.dir/src/decorator/spacing_decorator.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/MyProject.dir/src/decorator/spacing_decorator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/decorator/spacing_decorator.cpp.o -MF CMakeFiles/MyProject.dir/src/decorator/spacing_decorator.cpp.o.d -o CMakeFiles/MyProject.dir/src/decorator/spacing_decorator.cpp.o -c /home/emilija/Desktop/tgui/src/decorator/spacing_decorator.cpp
+
+CMakeFiles/MyProject.dir/src/decorator/spacing_decorator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/src/decorator/spacing_decorator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emilija/Desktop/tgui/src/decorator/spacing_decorator.cpp > CMakeFiles/MyProject.dir/src/decorator/spacing_decorator.cpp.i
+
+CMakeFiles/MyProject.dir/src/decorator/spacing_decorator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/src/decorator/spacing_decorator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emilija/Desktop/tgui/src/decorator/spacing_decorator.cpp -o CMakeFiles/MyProject.dir/src/decorator/spacing_decorator.cpp.s
+
+CMakeFiles/MyProject.dir/src/decorator/strikethrough.cpp.o: CMakeFiles/MyProject.dir/flags.make
+CMakeFiles/MyProject.dir/src/decorator/strikethrough.cpp.o: ../src/decorator/strikethrough.cpp
+CMakeFiles/MyProject.dir/src/decorator/strikethrough.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/MyProject.dir/src/decorator/strikethrough.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/decorator/strikethrough.cpp.o -MF CMakeFiles/MyProject.dir/src/decorator/strikethrough.cpp.o.d -o CMakeFiles/MyProject.dir/src/decorator/strikethrough.cpp.o -c /home/emilija/Desktop/tgui/src/decorator/strikethrough.cpp
+
+CMakeFiles/MyProject.dir/src/decorator/strikethrough.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/src/decorator/strikethrough.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emilija/Desktop/tgui/src/decorator/strikethrough.cpp > CMakeFiles/MyProject.dir/src/decorator/strikethrough.cpp.i
+
+CMakeFiles/MyProject.dir/src/decorator/strikethrough.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/src/decorator/strikethrough.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emilija/Desktop/tgui/src/decorator/strikethrough.cpp -o CMakeFiles/MyProject.dir/src/decorator/strikethrough.cpp.s
+
+CMakeFiles/MyProject.dir/src/decorator/underline.cpp.o: CMakeFiles/MyProject.dir/flags.make
+CMakeFiles/MyProject.dir/src/decorator/underline.cpp.o: ../src/decorator/underline.cpp
+CMakeFiles/MyProject.dir/src/decorator/underline.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/MyProject.dir/src/decorator/underline.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/decorator/underline.cpp.o -MF CMakeFiles/MyProject.dir/src/decorator/underline.cpp.o.d -o CMakeFiles/MyProject.dir/src/decorator/underline.cpp.o -c /home/emilija/Desktop/tgui/src/decorator/underline.cpp
+
+CMakeFiles/MyProject.dir/src/decorator/underline.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/src/decorator/underline.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/emilija/Desktop/tgui/src/decorator/underline.cpp > CMakeFiles/MyProject.dir/src/decorator/underline.cpp.i
+
+CMakeFiles/MyProject.dir/src/decorator/underline.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/src/decorator/underline.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/emilija/Desktop/tgui/src/decorator/underline.cpp -o CMakeFiles/MyProject.dir/src/decorator/underline.cpp.s
+
 CMakeFiles/MyProject.dir/src/elements/container.cpp.o: CMakeFiles/MyProject.dir/flags.make
 CMakeFiles/MyProject.dir/src/elements/container.cpp.o: ../src/elements/container.cpp
 CMakeFiles/MyProject.dir/src/elements/container.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MyProject.dir/src/elements/container.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/MyProject.dir/src/elements/container.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/elements/container.cpp.o -MF CMakeFiles/MyProject.dir/src/elements/container.cpp.o.d -o CMakeFiles/MyProject.dir/src/elements/container.cpp.o -c /home/emilija/Desktop/tgui/src/elements/container.cpp
 
 CMakeFiles/MyProject.dir/src/elements/container.cpp.i: cmake_force
@@ -156,7 +282,7 @@ CMakeFiles/MyProject.dir/src/elements/container.cpp.s: cmake_force
 CMakeFiles/MyProject.dir/src/elements/hbox.cpp.o: CMakeFiles/MyProject.dir/flags.make
 CMakeFiles/MyProject.dir/src/elements/hbox.cpp.o: ../src/elements/hbox.cpp
 CMakeFiles/MyProject.dir/src/elements/hbox.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MyProject.dir/src/elements/hbox.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/MyProject.dir/src/elements/hbox.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/elements/hbox.cpp.o -MF CMakeFiles/MyProject.dir/src/elements/hbox.cpp.o.d -o CMakeFiles/MyProject.dir/src/elements/hbox.cpp.o -c /home/emilija/Desktop/tgui/src/elements/hbox.cpp
 
 CMakeFiles/MyProject.dir/src/elements/hbox.cpp.i: cmake_force
@@ -170,7 +296,7 @@ CMakeFiles/MyProject.dir/src/elements/hbox.cpp.s: cmake_force
 CMakeFiles/MyProject.dir/src/elements/node.cpp.o: CMakeFiles/MyProject.dir/flags.make
 CMakeFiles/MyProject.dir/src/elements/node.cpp.o: ../src/elements/node.cpp
 CMakeFiles/MyProject.dir/src/elements/node.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MyProject.dir/src/elements/node.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/MyProject.dir/src/elements/node.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/elements/node.cpp.o -MF CMakeFiles/MyProject.dir/src/elements/node.cpp.o.d -o CMakeFiles/MyProject.dir/src/elements/node.cpp.o -c /home/emilija/Desktop/tgui/src/elements/node.cpp
 
 CMakeFiles/MyProject.dir/src/elements/node.cpp.i: cmake_force
@@ -184,7 +310,7 @@ CMakeFiles/MyProject.dir/src/elements/node.cpp.s: cmake_force
 CMakeFiles/MyProject.dir/src/elements/progressBar.cpp.o: CMakeFiles/MyProject.dir/flags.make
 CMakeFiles/MyProject.dir/src/elements/progressBar.cpp.o: ../src/elements/progressBar.cpp
 CMakeFiles/MyProject.dir/src/elements/progressBar.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MyProject.dir/src/elements/progressBar.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/MyProject.dir/src/elements/progressBar.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/elements/progressBar.cpp.o -MF CMakeFiles/MyProject.dir/src/elements/progressBar.cpp.o.d -o CMakeFiles/MyProject.dir/src/elements/progressBar.cpp.o -c /home/emilija/Desktop/tgui/src/elements/progressBar.cpp
 
 CMakeFiles/MyProject.dir/src/elements/progressBar.cpp.i: cmake_force
@@ -198,7 +324,7 @@ CMakeFiles/MyProject.dir/src/elements/progressBar.cpp.s: cmake_force
 CMakeFiles/MyProject.dir/src/elements/textLabel.cpp.o: CMakeFiles/MyProject.dir/flags.make
 CMakeFiles/MyProject.dir/src/elements/textLabel.cpp.o: ../src/elements/textLabel.cpp
 CMakeFiles/MyProject.dir/src/elements/textLabel.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/MyProject.dir/src/elements/textLabel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/MyProject.dir/src/elements/textLabel.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/elements/textLabel.cpp.o -MF CMakeFiles/MyProject.dir/src/elements/textLabel.cpp.o.d -o CMakeFiles/MyProject.dir/src/elements/textLabel.cpp.o -c /home/emilija/Desktop/tgui/src/elements/textLabel.cpp
 
 CMakeFiles/MyProject.dir/src/elements/textLabel.cpp.i: cmake_force
@@ -212,7 +338,7 @@ CMakeFiles/MyProject.dir/src/elements/textLabel.cpp.s: cmake_force
 CMakeFiles/MyProject.dir/src/elements/vbox.cpp.o: CMakeFiles/MyProject.dir/flags.make
 CMakeFiles/MyProject.dir/src/elements/vbox.cpp.o: ../src/elements/vbox.cpp
 CMakeFiles/MyProject.dir/src/elements/vbox.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/MyProject.dir/src/elements/vbox.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/MyProject.dir/src/elements/vbox.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/elements/vbox.cpp.o -MF CMakeFiles/MyProject.dir/src/elements/vbox.cpp.o.d -o CMakeFiles/MyProject.dir/src/elements/vbox.cpp.o -c /home/emilija/Desktop/tgui/src/elements/vbox.cpp
 
 CMakeFiles/MyProject.dir/src/elements/vbox.cpp.i: cmake_force
@@ -226,7 +352,7 @@ CMakeFiles/MyProject.dir/src/elements/vbox.cpp.s: cmake_force
 CMakeFiles/MyProject.dir/src/events/eventQueue.cpp.o: CMakeFiles/MyProject.dir/flags.make
 CMakeFiles/MyProject.dir/src/events/eventQueue.cpp.o: ../src/events/eventQueue.cpp
 CMakeFiles/MyProject.dir/src/events/eventQueue.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/MyProject.dir/src/events/eventQueue.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/MyProject.dir/src/events/eventQueue.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/events/eventQueue.cpp.o -MF CMakeFiles/MyProject.dir/src/events/eventQueue.cpp.o.d -o CMakeFiles/MyProject.dir/src/events/eventQueue.cpp.o -c /home/emilija/Desktop/tgui/src/events/eventQueue.cpp
 
 CMakeFiles/MyProject.dir/src/events/eventQueue.cpp.i: cmake_force
@@ -240,7 +366,7 @@ CMakeFiles/MyProject.dir/src/events/eventQueue.cpp.s: cmake_force
 CMakeFiles/MyProject.dir/src/events/threadPool.cpp.o: CMakeFiles/MyProject.dir/flags.make
 CMakeFiles/MyProject.dir/src/events/threadPool.cpp.o: ../src/events/threadPool.cpp
 CMakeFiles/MyProject.dir/src/events/threadPool.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/MyProject.dir/src/events/threadPool.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/MyProject.dir/src/events/threadPool.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/events/threadPool.cpp.o -MF CMakeFiles/MyProject.dir/src/events/threadPool.cpp.o.d -o CMakeFiles/MyProject.dir/src/events/threadPool.cpp.o -c /home/emilija/Desktop/tgui/src/events/threadPool.cpp
 
 CMakeFiles/MyProject.dir/src/events/threadPool.cpp.i: cmake_force
@@ -254,7 +380,7 @@ CMakeFiles/MyProject.dir/src/events/threadPool.cpp.s: cmake_force
 CMakeFiles/MyProject.dir/src/main.cpp.o: CMakeFiles/MyProject.dir/flags.make
 CMakeFiles/MyProject.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/MyProject.dir/src/main.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/MyProject.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/MyProject.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/main.cpp.o -MF CMakeFiles/MyProject.dir/src/main.cpp.o.d -o CMakeFiles/MyProject.dir/src/main.cpp.o -c /home/emilija/Desktop/tgui/src/main.cpp
 
 CMakeFiles/MyProject.dir/src/main.cpp.i: cmake_force
@@ -268,7 +394,7 @@ CMakeFiles/MyProject.dir/src/main.cpp.s: cmake_force
 CMakeFiles/MyProject.dir/src/screen/application.cpp.o: CMakeFiles/MyProject.dir/flags.make
 CMakeFiles/MyProject.dir/src/screen/application.cpp.o: ../src/screen/application.cpp
 CMakeFiles/MyProject.dir/src/screen/application.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/MyProject.dir/src/screen/application.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/MyProject.dir/src/screen/application.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/screen/application.cpp.o -MF CMakeFiles/MyProject.dir/src/screen/application.cpp.o.d -o CMakeFiles/MyProject.dir/src/screen/application.cpp.o -c /home/emilija/Desktop/tgui/src/screen/application.cpp
 
 CMakeFiles/MyProject.dir/src/screen/application.cpp.i: cmake_force
@@ -282,7 +408,7 @@ CMakeFiles/MyProject.dir/src/screen/application.cpp.s: cmake_force
 CMakeFiles/MyProject.dir/src/screen/screen.cpp.o: CMakeFiles/MyProject.dir/flags.make
 CMakeFiles/MyProject.dir/src/screen/screen.cpp.o: ../src/screen/screen.cpp
 CMakeFiles/MyProject.dir/src/screen/screen.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/MyProject.dir/src/screen/screen.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/MyProject.dir/src/screen/screen.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/screen/screen.cpp.o -MF CMakeFiles/MyProject.dir/src/screen/screen.cpp.o.d -o CMakeFiles/MyProject.dir/src/screen/screen.cpp.o -c /home/emilija/Desktop/tgui/src/screen/screen.cpp
 
 CMakeFiles/MyProject.dir/src/screen/screen.cpp.i: cmake_force
@@ -296,7 +422,7 @@ CMakeFiles/MyProject.dir/src/screen/screen.cpp.s: cmake_force
 CMakeFiles/MyProject.dir/src/screen/terminal.cpp.o: CMakeFiles/MyProject.dir/flags.make
 CMakeFiles/MyProject.dir/src/screen/terminal.cpp.o: ../src/screen/terminal.cpp
 CMakeFiles/MyProject.dir/src/screen/terminal.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/MyProject.dir/src/screen/terminal.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/MyProject.dir/src/screen/terminal.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/screen/terminal.cpp.o -MF CMakeFiles/MyProject.dir/src/screen/terminal.cpp.o.d -o CMakeFiles/MyProject.dir/src/screen/terminal.cpp.o -c /home/emilija/Desktop/tgui/src/screen/terminal.cpp
 
 CMakeFiles/MyProject.dir/src/screen/terminal.cpp.i: cmake_force
@@ -310,7 +436,7 @@ CMakeFiles/MyProject.dir/src/screen/terminal.cpp.s: cmake_force
 CMakeFiles/MyProject.dir/src/test.cpp.o: CMakeFiles/MyProject.dir/flags.make
 CMakeFiles/MyProject.dir/src/test.cpp.o: ../src/test.cpp
 CMakeFiles/MyProject.dir/src/test.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/MyProject.dir/src/test.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/MyProject.dir/src/test.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/test.cpp.o -MF CMakeFiles/MyProject.dir/src/test.cpp.o.d -o CMakeFiles/MyProject.dir/src/test.cpp.o -c /home/emilija/Desktop/tgui/src/test.cpp
 
 CMakeFiles/MyProject.dir/src/test.cpp.i: cmake_force
@@ -324,7 +450,7 @@ CMakeFiles/MyProject.dir/src/test.cpp.s: cmake_force
 CMakeFiles/MyProject.dir/src/utils/box.cpp.o: CMakeFiles/MyProject.dir/flags.make
 CMakeFiles/MyProject.dir/src/utils/box.cpp.o: ../src/utils/box.cpp
 CMakeFiles/MyProject.dir/src/utils/box.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/MyProject.dir/src/utils/box.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/MyProject.dir/src/utils/box.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/utils/box.cpp.o -MF CMakeFiles/MyProject.dir/src/utils/box.cpp.o.d -o CMakeFiles/MyProject.dir/src/utils/box.cpp.o -c /home/emilija/Desktop/tgui/src/utils/box.cpp
 
 CMakeFiles/MyProject.dir/src/utils/box.cpp.i: cmake_force
@@ -338,7 +464,7 @@ CMakeFiles/MyProject.dir/src/utils/box.cpp.s: cmake_force
 CMakeFiles/MyProject.dir/src/utils/box_layout_helper.cpp.o: CMakeFiles/MyProject.dir/flags.make
 CMakeFiles/MyProject.dir/src/utils/box_layout_helper.cpp.o: ../src/utils/box_layout_helper.cpp
 CMakeFiles/MyProject.dir/src/utils/box_layout_helper.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/MyProject.dir/src/utils/box_layout_helper.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/MyProject.dir/src/utils/box_layout_helper.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/utils/box_layout_helper.cpp.o -MF CMakeFiles/MyProject.dir/src/utils/box_layout_helper.cpp.o.d -o CMakeFiles/MyProject.dir/src/utils/box_layout_helper.cpp.o -c /home/emilija/Desktop/tgui/src/utils/box_layout_helper.cpp
 
 CMakeFiles/MyProject.dir/src/utils/box_layout_helper.cpp.i: cmake_force
@@ -352,7 +478,7 @@ CMakeFiles/MyProject.dir/src/utils/box_layout_helper.cpp.s: cmake_force
 CMakeFiles/MyProject.dir/src/utils/constraints.cpp.o: CMakeFiles/MyProject.dir/flags.make
 CMakeFiles/MyProject.dir/src/utils/constraints.cpp.o: ../src/utils/constraints.cpp
 CMakeFiles/MyProject.dir/src/utils/constraints.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/MyProject.dir/src/utils/constraints.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/MyProject.dir/src/utils/constraints.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/utils/constraints.cpp.o -MF CMakeFiles/MyProject.dir/src/utils/constraints.cpp.o.d -o CMakeFiles/MyProject.dir/src/utils/constraints.cpp.o -c /home/emilija/Desktop/tgui/src/utils/constraints.cpp
 
 CMakeFiles/MyProject.dir/src/utils/constraints.cpp.i: cmake_force
@@ -366,7 +492,7 @@ CMakeFiles/MyProject.dir/src/utils/constraints.cpp.s: cmake_force
 CMakeFiles/MyProject.dir/src/utils/factory.cpp.o: CMakeFiles/MyProject.dir/flags.make
 CMakeFiles/MyProject.dir/src/utils/factory.cpp.o: ../src/utils/factory.cpp
 CMakeFiles/MyProject.dir/src/utils/factory.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/MyProject.dir/src/utils/factory.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/MyProject.dir/src/utils/factory.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/utils/factory.cpp.o -MF CMakeFiles/MyProject.dir/src/utils/factory.cpp.o.d -o CMakeFiles/MyProject.dir/src/utils/factory.cpp.o -c /home/emilija/Desktop/tgui/src/utils/factory.cpp
 
 CMakeFiles/MyProject.dir/src/utils/factory.cpp.i: cmake_force
@@ -380,7 +506,7 @@ CMakeFiles/MyProject.dir/src/utils/factory.cpp.s: cmake_force
 CMakeFiles/MyProject.dir/src/utils/point.cpp.o: CMakeFiles/MyProject.dir/flags.make
 CMakeFiles/MyProject.dir/src/utils/point.cpp.o: ../src/utils/point.cpp
 CMakeFiles/MyProject.dir/src/utils/point.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/MyProject.dir/src/utils/point.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/MyProject.dir/src/utils/point.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/utils/point.cpp.o -MF CMakeFiles/MyProject.dir/src/utils/point.cpp.o.d -o CMakeFiles/MyProject.dir/src/utils/point.cpp.o -c /home/emilija/Desktop/tgui/src/utils/point.cpp
 
 CMakeFiles/MyProject.dir/src/utils/point.cpp.i: cmake_force
@@ -394,7 +520,7 @@ CMakeFiles/MyProject.dir/src/utils/point.cpp.s: cmake_force
 CMakeFiles/MyProject.dir/src/utils/size.cpp.o: CMakeFiles/MyProject.dir/flags.make
 CMakeFiles/MyProject.dir/src/utils/size.cpp.o: ../src/utils/size.cpp
 CMakeFiles/MyProject.dir/src/utils/size.cpp.o: CMakeFiles/MyProject.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/MyProject.dir/src/utils/size.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/MyProject.dir/src/utils/size.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProject.dir/src/utils/size.cpp.o -MF CMakeFiles/MyProject.dir/src/utils/size.cpp.o.d -o CMakeFiles/MyProject.dir/src/utils/size.cpp.o -c /home/emilija/Desktop/tgui/src/utils/size.cpp
 
 CMakeFiles/MyProject.dir/src/utils/size.cpp.i: cmake_force
@@ -408,10 +534,19 @@ CMakeFiles/MyProject.dir/src/utils/size.cpp.s: cmake_force
 # Object files for target MyProject
 MyProject_OBJECTS = \
 "CMakeFiles/MyProject.dir/src/ansi/ansi.cpp.o" \
+"CMakeFiles/MyProject.dir/src/box_test.cpp.o" \
 "CMakeFiles/MyProject.dir/src/core/bitmap.cpp.o" \
 "CMakeFiles/MyProject.dir/src/core/pixel.cpp.o" \
+"CMakeFiles/MyProject.dir/src/decorator/bold.cpp.o" \
 "CMakeFiles/MyProject.dir/src/decorator/border.cpp.o" \
 "CMakeFiles/MyProject.dir/src/decorator/decorator.cpp.o" \
+"CMakeFiles/MyProject.dir/src/decorator/italic.cpp.o" \
+"CMakeFiles/MyProject.dir/src/decorator/margin.cpp.o" \
+"CMakeFiles/MyProject.dir/src/decorator/node_decorator.cpp.o" \
+"CMakeFiles/MyProject.dir/src/decorator/padding.cpp.o" \
+"CMakeFiles/MyProject.dir/src/decorator/spacing_decorator.cpp.o" \
+"CMakeFiles/MyProject.dir/src/decorator/strikethrough.cpp.o" \
+"CMakeFiles/MyProject.dir/src/decorator/underline.cpp.o" \
 "CMakeFiles/MyProject.dir/src/elements/container.cpp.o" \
 "CMakeFiles/MyProject.dir/src/elements/hbox.cpp.o" \
 "CMakeFiles/MyProject.dir/src/elements/node.cpp.o" \
@@ -436,10 +571,19 @@ MyProject_OBJECTS = \
 MyProject_EXTERNAL_OBJECTS =
 
 MyProject: CMakeFiles/MyProject.dir/src/ansi/ansi.cpp.o
+MyProject: CMakeFiles/MyProject.dir/src/box_test.cpp.o
 MyProject: CMakeFiles/MyProject.dir/src/core/bitmap.cpp.o
 MyProject: CMakeFiles/MyProject.dir/src/core/pixel.cpp.o
+MyProject: CMakeFiles/MyProject.dir/src/decorator/bold.cpp.o
 MyProject: CMakeFiles/MyProject.dir/src/decorator/border.cpp.o
 MyProject: CMakeFiles/MyProject.dir/src/decorator/decorator.cpp.o
+MyProject: CMakeFiles/MyProject.dir/src/decorator/italic.cpp.o
+MyProject: CMakeFiles/MyProject.dir/src/decorator/margin.cpp.o
+MyProject: CMakeFiles/MyProject.dir/src/decorator/node_decorator.cpp.o
+MyProject: CMakeFiles/MyProject.dir/src/decorator/padding.cpp.o
+MyProject: CMakeFiles/MyProject.dir/src/decorator/spacing_decorator.cpp.o
+MyProject: CMakeFiles/MyProject.dir/src/decorator/strikethrough.cpp.o
+MyProject: CMakeFiles/MyProject.dir/src/decorator/underline.cpp.o
 MyProject: CMakeFiles/MyProject.dir/src/elements/container.cpp.o
 MyProject: CMakeFiles/MyProject.dir/src/elements/hbox.cpp.o
 MyProject: CMakeFiles/MyProject.dir/src/elements/node.cpp.o
@@ -461,7 +605,7 @@ MyProject: CMakeFiles/MyProject.dir/src/utils/point.cpp.o
 MyProject: CMakeFiles/MyProject.dir/src/utils/size.cpp.o
 MyProject: CMakeFiles/MyProject.dir/build.make
 MyProject: CMakeFiles/MyProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable MyProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/emilija/Desktop/tgui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking CXX executable MyProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MyProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

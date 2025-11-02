@@ -55,6 +55,7 @@ public:
 
     Constraints getConstraints() const;
     Size getRequiredSize() const;
+    Point getOrigin() const;
     int getBoxHeight() const;
     int getBoxWidth() const;
     double getFlexGrowY() const;

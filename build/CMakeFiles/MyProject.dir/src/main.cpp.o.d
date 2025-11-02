@@ -223,6 +223,12 @@ CMakeFiles/MyProject.dir/src/main.cpp.o: \
  /home/emilija/Desktop/tgui/include/elements/progressBar.h \
  /home/emilija/Desktop/tgui/include/elements/node.h \
  /home/emilija/Desktop/tgui/include/decorator/border.h \
+ /home/emilija/Desktop/tgui/include/decorator/node_decorator.h \
+ /home/emilija/Desktop/tgui/include/decorator/spacing_decorator.h \
+ /home/emilija/Desktop/tgui/include/decorator/bold.h \
+ /home/emilija/Desktop/tgui/include/decorator/italic.h \
+ /home/emilija/Desktop/tgui/include/decorator/underline.h \
+ /home/emilija/Desktop/tgui/include/decorator/strikethrough.h \
  /home/emilija/Desktop/tgui/include/screen/application.h \
  /usr/include/c++/13/functional /usr/include/c++/13/bits/std_function.h \
  /usr/include/c++/13/unordered_map \

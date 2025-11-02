@@ -5,7 +5,7 @@
 #include <unistd.h>
 
 Screen::Screen(Size size) : terminal(Terminal::getInstance()), _viewport(size), _pixels(make_unique<Bitmap>(size)) {
-    init();
+    // init();
 }
 
 Screen::Screen(Screen& other)

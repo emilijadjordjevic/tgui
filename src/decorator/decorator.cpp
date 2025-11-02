@@ -2,51 +2,51 @@
 using namespace factory;
 
 namespace tgui {
-    Decorator compose(Decorator a, Decorator b) {
+    DecoratorFunction compose(DecoratorFunction a, DecoratorFunction b) {
         return [a = move(a), b = move(b)](Element element) {
             return b(a(element));
         };
     }
 
-    Decorator operator|(Decorator a, Decorator b) {
+    DecoratorFunction operator|(DecoratorFunction a, DecoratorFunction b) {
         return compose(move(a), move(b));
     }
 
-    Element operator|(Element element, Decorator decorator) {
-        return decorator(element);
+    Element operator|(Element element, DecoratorFunction decoratorFunction) {
+        return decoratorFunction(element);
     }
 
-    Decorator border(char c, int topBorder, int rightBorder, int bottomBorder, int leftBorder) {
+    DecoratorFunction border(char c, int topBorder, int rightBorder, int bottomBorder, int leftBorder) {
         return [=](Element e) {
             return factory::borderInternal(e, c, topBorder, rightBorder, bottomBorder, leftBorder);
         };
     }
 
-    Decorator border(int topBorder, int rightBorder, int bottomBorder, int leftBorder) {
+    DecoratorFunction border(int topBorder, int rightBorder, int bottomBorder, int leftBorder) {
         return [=](Element e) {
             return factory::borderInternal(e, topBorder, rightBorder, bottomBorder, leftBorder);
         };
     }
 
-    Decorator bold() {
+    DecoratorFunction bold() {
         return [=](Element e) {
             return factory::boldInternal(e);
         };
     }
 
-    Decorator strikethrough() {
+    DecoratorFunction strikethrough() {
         return [=](Element e) {
             return factory::strikethroughInternal(e);
         };
     }
 
-    Decorator underline() {
+    DecoratorFunction underline() {
         return [=](Element e) {
             return factory::underlineInternal(e);
         };
     }
 
-    Decorator italic() {
+    DecoratorFunction italic() {
         return [=](Element e) {
             return factory::italicInternal(e);
         };

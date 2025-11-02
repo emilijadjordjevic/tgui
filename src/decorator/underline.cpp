@@ -2,14 +2,6 @@
 
 Underline::Underline(Element e) : Decorator(e) {}
 
-void Underline::computeRequirement() {
-    setRequiredSize(_element->getRequiredSize());
-}
-
-void Underline::ComputeMinSize() {
-
-}
-
 int Underline::getLayer() const {
     return static_cast<int>(NodeLayer::InlineStyle);
 }

@@ -6,9 +6,7 @@
 class Striketrough : public Decorator {
 public:
     Striketrough(Element e);
-    Striketrough(Element e);
-    void computeRequirement() override;
-    void ComputeMinSize() override;
+
     void render(Bitmap&) override; 
     int getLayer() const override;
 };

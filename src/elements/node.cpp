@@ -1,9 +1,10 @@
 #include "elements/node.h"
 
-Node::Node() : _parent(nullptr), _box(), _constraints(), _origin() {}
+Node::Node() : _parent(nullptr), _box(), _constraints(), _origin() { this->ComputeMinSize(); }
 
 Node::Node(Size size) : _parent(nullptr), _box(), _constraints(), _origin() {
     _constraints.setPrefSize(size);
+    this->ComputeMinSize();
 }
 
 void Node::computeRequirement() {
@@ -102,5 +103,8 @@ int Node::getBoxWidth() const {
     return _box.getWidth();
 }
 
+Point Node::getOrigin() const {
+    return _box.getOrigin();
+}
 
 

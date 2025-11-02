@@ -2,14 +2,6 @@
 
 Italic::Italic(Element e) : Decorator(e) {}
 
-void Italic::computeRequirement() {
-    setRequiredSize(_element->getRequiredSize());
-}
-
-void Italic::ComputeMinSize() {
-    cout << "minsize" << endl;
-}
-
 int Italic::getLayer() const {
     return static_cast<int>(NodeLayer::InlineStyle);
 }

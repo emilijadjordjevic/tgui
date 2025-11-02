@@ -2,14 +2,6 @@
 
 Striketrough::Striketrough(Element e) : Decorator(e) {}
 
-void Striketrough::computeRequirement() {
-    setRequiredSize(_element->getRequiredSize());
-}
-
-void Striketrough::ComputeMinSize() {
-
-}
-
 int Striketrough::getLayer() const {
     return static_cast<int>(NodeLayer::InlineStyle);
 }

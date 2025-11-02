@@ -153,6 +153,30 @@ src/ansi/ansi.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/ansi/ansi.cpp.s
 .PHONY : src/ansi/ansi.cpp.s
 
+src/box_test.o: src/box_test.cpp.o
+.PHONY : src/box_test.o
+
+# target to build an object file
+src/box_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/box_test.cpp.o
+.PHONY : src/box_test.cpp.o
+
+src/box_test.i: src/box_test.cpp.i
+.PHONY : src/box_test.i
+
+# target to preprocess a source file
+src/box_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/box_test.cpp.i
+.PHONY : src/box_test.cpp.i
+
+src/box_test.s: src/box_test.cpp.s
+.PHONY : src/box_test.s
+
+# target to generate assembly for a file
+src/box_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/box_test.cpp.s
+.PHONY : src/box_test.cpp.s
+
 src/core/bitmap.o: src/core/bitmap.cpp.o
 .PHONY : src/core/bitmap.o
 
@@ -201,6 +225,30 @@ src/core/pixel.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/core/pixel.cpp.s
 .PHONY : src/core/pixel.cpp.s
 
+src/decorator/bold.o: src/decorator/bold.cpp.o
+.PHONY : src/decorator/bold.o
+
+# target to build an object file
+src/decorator/bold.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/decorator/bold.cpp.o
+.PHONY : src/decorator/bold.cpp.o
+
+src/decorator/bold.i: src/decorator/bold.cpp.i
+.PHONY : src/decorator/bold.i
+
+# target to preprocess a source file
+src/decorator/bold.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/decorator/bold.cpp.i
+.PHONY : src/decorator/bold.cpp.i
+
+src/decorator/bold.s: src/decorator/bold.cpp.s
+.PHONY : src/decorator/bold.s
+
+# target to generate assembly for a file
+src/decorator/bold.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/decorator/bold.cpp.s
+.PHONY : src/decorator/bold.cpp.s
+
 src/decorator/border.o: src/decorator/border.cpp.o
 .PHONY : src/decorator/border.o
 
@@ -248,6 +296,174 @@ src/decorator/decorator.s: src/decorator/decorator.cpp.s
 src/decorator/decorator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/decorator/decorator.cpp.s
 .PHONY : src/decorator/decorator.cpp.s
+
+src/decorator/italic.o: src/decorator/italic.cpp.o
+.PHONY : src/decorator/italic.o
+
+# target to build an object file
+src/decorator/italic.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/decorator/italic.cpp.o
+.PHONY : src/decorator/italic.cpp.o
+
+src/decorator/italic.i: src/decorator/italic.cpp.i
+.PHONY : src/decorator/italic.i
+
+# target to preprocess a source file
+src/decorator/italic.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/decorator/italic.cpp.i
+.PHONY : src/decorator/italic.cpp.i
+
+src/decorator/italic.s: src/decorator/italic.cpp.s
+.PHONY : src/decorator/italic.s
+
+# target to generate assembly for a file
+src/decorator/italic.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/decorator/italic.cpp.s
+.PHONY : src/decorator/italic.cpp.s
+
+src/decorator/margin.o: src/decorator/margin.cpp.o
+.PHONY : src/decorator/margin.o
+
+# target to build an object file
+src/decorator/margin.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/decorator/margin.cpp.o
+.PHONY : src/decorator/margin.cpp.o
+
+src/decorator/margin.i: src/decorator/margin.cpp.i
+.PHONY : src/decorator/margin.i
+
+# target to preprocess a source file
+src/decorator/margin.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/decorator/margin.cpp.i
+.PHONY : src/decorator/margin.cpp.i
+
+src/decorator/margin.s: src/decorator/margin.cpp.s
+.PHONY : src/decorator/margin.s
+
+# target to generate assembly for a file
+src/decorator/margin.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/decorator/margin.cpp.s
+.PHONY : src/decorator/margin.cpp.s
+
+src/decorator/node_decorator.o: src/decorator/node_decorator.cpp.o
+.PHONY : src/decorator/node_decorator.o
+
+# target to build an object file
+src/decorator/node_decorator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/decorator/node_decorator.cpp.o
+.PHONY : src/decorator/node_decorator.cpp.o
+
+src/decorator/node_decorator.i: src/decorator/node_decorator.cpp.i
+.PHONY : src/decorator/node_decorator.i
+
+# target to preprocess a source file
+src/decorator/node_decorator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/decorator/node_decorator.cpp.i
+.PHONY : src/decorator/node_decorator.cpp.i
+
+src/decorator/node_decorator.s: src/decorator/node_decorator.cpp.s
+.PHONY : src/decorator/node_decorator.s
+
+# target to generate assembly for a file
+src/decorator/node_decorator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/decorator/node_decorator.cpp.s
+.PHONY : src/decorator/node_decorator.cpp.s
+
+src/decorator/padding.o: src/decorator/padding.cpp.o
+.PHONY : src/decorator/padding.o
+
+# target to build an object file
+src/decorator/padding.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/decorator/padding.cpp.o
+.PHONY : src/decorator/padding.cpp.o
+
+src/decorator/padding.i: src/decorator/padding.cpp.i
+.PHONY : src/decorator/padding.i
+
+# target to preprocess a source file
+src/decorator/padding.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/decorator/padding.cpp.i
+.PHONY : src/decorator/padding.cpp.i
+
+src/decorator/padding.s: src/decorator/padding.cpp.s
+.PHONY : src/decorator/padding.s
+
+# target to generate assembly for a file
+src/decorator/padding.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/decorator/padding.cpp.s
+.PHONY : src/decorator/padding.cpp.s
+
+src/decorator/spacing_decorator.o: src/decorator/spacing_decorator.cpp.o
+.PHONY : src/decorator/spacing_decorator.o
+
+# target to build an object file
+src/decorator/spacing_decorator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/decorator/spacing_decorator.cpp.o
+.PHONY : src/decorator/spacing_decorator.cpp.o
+
+src/decorator/spacing_decorator.i: src/decorator/spacing_decorator.cpp.i
+.PHONY : src/decorator/spacing_decorator.i
+
+# target to preprocess a source file
+src/decorator/spacing_decorator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/decorator/spacing_decorator.cpp.i
+.PHONY : src/decorator/spacing_decorator.cpp.i
+
+src/decorator/spacing_decorator.s: src/decorator/spacing_decorator.cpp.s
+.PHONY : src/decorator/spacing_decorator.s
+
+# target to generate assembly for a file
+src/decorator/spacing_decorator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/decorator/spacing_decorator.cpp.s
+.PHONY : src/decorator/spacing_decorator.cpp.s
+
+src/decorator/strikethrough.o: src/decorator/strikethrough.cpp.o
+.PHONY : src/decorator/strikethrough.o
+
+# target to build an object file
+src/decorator/strikethrough.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/decorator/strikethrough.cpp.o
+.PHONY : src/decorator/strikethrough.cpp.o
+
+src/decorator/strikethrough.i: src/decorator/strikethrough.cpp.i
+.PHONY : src/decorator/strikethrough.i
+
+# target to preprocess a source file
+src/decorator/strikethrough.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/decorator/strikethrough.cpp.i
+.PHONY : src/decorator/strikethrough.cpp.i
+
+src/decorator/strikethrough.s: src/decorator/strikethrough.cpp.s
+.PHONY : src/decorator/strikethrough.s
+
+# target to generate assembly for a file
+src/decorator/strikethrough.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/decorator/strikethrough.cpp.s
+.PHONY : src/decorator/strikethrough.cpp.s
+
+src/decorator/underline.o: src/decorator/underline.cpp.o
+.PHONY : src/decorator/underline.o
+
+# target to build an object file
+src/decorator/underline.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/decorator/underline.cpp.o
+.PHONY : src/decorator/underline.cpp.o
+
+src/decorator/underline.i: src/decorator/underline.cpp.i
+.PHONY : src/decorator/underline.i
+
+# target to preprocess a source file
+src/decorator/underline.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/decorator/underline.cpp.i
+.PHONY : src/decorator/underline.cpp.i
+
+src/decorator/underline.s: src/decorator/underline.cpp.s
+.PHONY : src/decorator/underline.s
+
+# target to generate assembly for a file
+src/decorator/underline.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/src/decorator/underline.cpp.s
+.PHONY : src/decorator/underline.cpp.s
 
 src/elements/container.o: src/elements/container.cpp.o
 .PHONY : src/elements/container.o
@@ -717,18 +933,45 @@ help:
 	@echo "... src/ansi/ansi.o"
 	@echo "... src/ansi/ansi.i"
 	@echo "... src/ansi/ansi.s"
+	@echo "... src/box_test.o"
+	@echo "... src/box_test.i"
+	@echo "... src/box_test.s"
 	@echo "... src/core/bitmap.o"
 	@echo "... src/core/bitmap.i"
 	@echo "... src/core/bitmap.s"
 	@echo "... src/core/pixel.o"
 	@echo "... src/core/pixel.i"
 	@echo "... src/core/pixel.s"
+	@echo "... src/decorator/bold.o"
+	@echo "... src/decorator/bold.i"
+	@echo "... src/decorator/bold.s"
 	@echo "... src/decorator/border.o"
 	@echo "... src/decorator/border.i"
 	@echo "... src/decorator/border.s"
 	@echo "... src/decorator/decorator.o"
 	@echo "... src/decorator/decorator.i"
 	@echo "... src/decorator/decorator.s"
+	@echo "... src/decorator/italic.o"
+	@echo "... src/decorator/italic.i"
+	@echo "... src/decorator/italic.s"
+	@echo "... src/decorator/margin.o"
+	@echo "... src/decorator/margin.i"
+	@echo "... src/decorator/margin.s"
+	@echo "... src/decorator/node_decorator.o"
+	@echo "... src/decorator/node_decorator.i"
+	@echo "... src/decorator/node_decorator.s"
+	@echo "... src/decorator/padding.o"
+	@echo "... src/decorator/padding.i"
+	@echo "... src/decorator/padding.s"
+	@echo "... src/decorator/spacing_decorator.o"
+	@echo "... src/decorator/spacing_decorator.i"
+	@echo "... src/decorator/spacing_decorator.s"
+	@echo "... src/decorator/strikethrough.o"
+	@echo "... src/decorator/strikethrough.i"
+	@echo "... src/decorator/strikethrough.s"
+	@echo "... src/decorator/underline.o"
+	@echo "... src/decorator/underline.i"
+	@echo "... src/decorator/underline.s"
 	@echo "... src/elements/container.o"
 	@echo "... src/elements/container.i"
 	@echo "... src/elements/container.s"
